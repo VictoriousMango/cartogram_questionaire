@@ -29,7 +29,6 @@ ph = col2.empty()
 
 
 # Doc to Quiz
-st.session_state['QuizDoc'] = 'Questions.txt'
 Ans = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp'])
 Finish = st.button('Finish', on_click = clicked)
 
