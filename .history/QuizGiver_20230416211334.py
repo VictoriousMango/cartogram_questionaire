@@ -30,17 +30,16 @@ def app(QuizDoc, time_stamp):
     Questionaire = dict()
     count = 1
     Esc_Char = 'break'
-    with open(QuizDoc, 'r') as QD:
-        for i in QD.readlines():
-            temp = str(i) 
-            if Esc_Char in temp:
-                #st.write('Found Escape Character')
-                count += 1
-                raw_text[count] = []
-                #Answered[count] = []
-            else:    
-                #st.write(temp)
-                raw_text[count].append(temp)
+    for i in QuizDoc.readlines():
+        temp = str(i) 
+        if Esc_Char in temp:
+            #st.write('Found Escape Character')
+            count += 1
+            raw_text[count] = []
+            #Answered[count] = []
+        else:    
+            #st.write(temp)
+            raw_text[count].append(temp)
             #st.write(temp)
         #i = str(i,"utf-8")
         #if 'break' in i:
