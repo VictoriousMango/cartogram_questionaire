@@ -19,6 +19,11 @@ if 'QuizDoc' not in st.session_state:
 # Test Functions
 def clicked():
    st.write('Finished')
+        
+def Quizzer():
+   st.session_state['QuizDoc'] = open('Questionaire Doc\Questions.txt', 'r')
+   Ans = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp'])
+   return Ans
 # Test Functions
 
 # Title Bar
@@ -30,20 +35,12 @@ ph = col2.empty()
 
 # Doc to Quiz
 st.session_state['QuizDoc'] = 'Questions.txt'
-
 Endcol1, Endcol2 = st.columns([6, 4])
 
 
 
-if st.session_state['QuizDoc']:
-        
-    def Quizzer():
-      st.session_state['QuizDoc'] = open('Questionaire Doc\Questions.txt', 'r')
-      Ans = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp'])
-      return Ans
-      
+if st.session_state['QuizDoc']:    
     Ans = Quizzer()
-    #pass
     Finish = Endcol2.button('Finish', on_click = clicked)
     while Finish == False:
         mins, secs = divmod(st.session_state['time_stamp'], 60)
