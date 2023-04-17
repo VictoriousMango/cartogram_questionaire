@@ -1,10 +1,7 @@
-# Initial Imports
 import streamlit as st
 import numpy as np
 from PIL import Image
 import QuizGiver as QG
-import time
-# Initial Imports
 
 # Session States
 if 'time_stamp' not in st.session_state:
