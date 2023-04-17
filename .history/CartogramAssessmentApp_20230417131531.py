@@ -31,10 +31,10 @@ Ans = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp'])
 Endcol1, Endcol2 = st.columns([8, 2])
 Finish = Endcol2.button('Finish', on_click = clicked)
 
-#if st.session_state['QuizDoc']:
+if st.session_state['QuizDoc']:
     #pass
-while Finish == False:
-    mins, secs = divmod(st.session_state['time_stamp'], 60)
-    ph.metric("Countdown", f"{mins:02d}:{secs:02d}")
-    time.sleep(1)
-    st.session_state['time_stamp'] += 1
+    while Finish == False:
+        mins, secs = divmod(st.session_state['time_stamp'], 60)
+        ph.metric("Countdown", f"{mins:02d}:{secs:02d}")
+        time.sleep(1)
+        st.session_state['time_stamp'] += 1
