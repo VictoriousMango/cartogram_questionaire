@@ -45,15 +45,15 @@ def app():
       Ans, Index = Quizzer()
       #Columns Part 2
       Endcol1, Endcol2 = st.columns([6, 4])
-      VanishEndcol2 = Endcol2.empty()
       #Columns Part 2     
 
-      def finish(str):
-         Finish = VanishEndcol2.button(str, on_click = clicked)
+      def finish():
+         Finish = Endcol2.button('Finish', on_click = clicked)
          return Finish    
       
       if Index == 7:
-         Finish = finish('Finish')
+         with st.empty():
+            Finish = finish()
       else: 
          Finish = False
 
@@ -63,7 +63,6 @@ def app():
       time.sleep(1)
       st.session_state['time_stamp'] += 1
    if Finish:
-      VanishEndcol2.empty()
       Q.app()
 
 if __name__ == '__main__':

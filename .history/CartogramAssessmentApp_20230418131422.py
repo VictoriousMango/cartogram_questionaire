@@ -53,7 +53,8 @@ def app():
          return Finish    
       
       if Index == 7:
-         Finish = finish('Finish')
+         with st.empty():
+            Finish = finish('Finish')
       else: 
          Finish = False
 
@@ -63,7 +64,7 @@ def app():
       time.sleep(1)
       st.session_state['time_stamp'] += 1
    if Finish:
-      VanishEndcol2.empty()
+      Finish = finish('Completed Assessment')
       Q.app()
 
 if __name__ == '__main__':

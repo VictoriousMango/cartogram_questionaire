@@ -53,7 +53,8 @@ def app():
          return Finish    
       
       if Index == 7:
-         Finish = finish('Finish')
+         with st.empty():
+            Finish = finish('Finish')
       else: 
          Finish = False
 
