@@ -14,7 +14,9 @@ def timer(ts):
         time.sleep(1)
         ts += 1 
 
-def app(QuizDoc, time_stamp):
+def app(QuizDoc, time_stamp, Finish):
+    if Finish:
+        st.empty()
     col1, col2 = st.columns([6, 4])
     col3, col4 = st.columns([6, 4])
     if 'Answer' not in st.session_state:
@@ -23,9 +25,7 @@ def app(QuizDoc, time_stamp):
         st.session_state['AnswerList'] = dict()
     if 'Index' not in st.session_state:
         st.session_state['Index'] = 0
-    #if st.session_state['Index'] == 7:
-        #col3.empty()
-        #Finish = col3.button('Finito')
+    
     raw_text = {1:[]}
     Answered = dict()
     Questionaire = dict()
@@ -58,47 +58,19 @@ def app(QuizDoc, time_stamp):
         B = ''
         C = ''
         D = ''
-        E = ''
-        F = ''
         for j in raw_text[i]:
             if 'A)' in j:
                 switch = 0
                 A += j
-                
             if 'B)' in j:
                 B += j
-                
             if 'C)' in j:
                 C += j
-                
             if 'D)' in j:
                 D += j
-                
-            if 'E)' in j:
-                E += j
-                
-            if 'F)' in j:
-                F += j
-                
             if switch:
                 Question += j
-        Questionaire[Question] = ['Select Options']
-        if Question != '':
-            pass
-            #Questionaire[Question].append(Question)
-        if A != '':
-            Questionaire[Question].append(A)
-        if B != '':
-            Questionaire[Question].append(B)
-        if C != '':
-            Questionaire[Question].append(C)
-        if D != '':
-            Questionaire[Question].append(D)
-        if E != '':
-            Questionaire[Question].append(E)
-        if F != '':
-            Questionaire[Question].append(F)
-        
+        Questionaire[Question] = [A, B, C, D]
 
     count = 1
     Ques = []
@@ -111,29 +83,28 @@ def app(QuizDoc, time_stamp):
     #Index = 0
     
     def Questions(Index):
-        if st.session_state['Index'] < len(Ques):
-            st.empty()
-            st.write()
-            col1.write('-----------------------------------------------------------')
-            st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
-            img_src = '1.jpg'
-            img = Image.open(img_src)
-            arr = np.array(img)
-            #img = imread(img_src)\
-            col1.write('-----------------------------------------------------------')
-            st.write()
-            col2.image(arr)
-    if st.session_state['Index'] < len(Ques):
-        Save = col3.button("Save for Q " + str(st.session_state['Index'] + 1))
-        if Save:
-            st.empty()
-            st.session_state['AnswerList'][st.session_state['Index'] + 1] = [st.session_state['Answer'][0], time_stamp]
-            #st.write(st.session_state['Answer'])
-                
-            if st.session_state['Index'] < len(Ques):
-                st.session_state['Index'] += 1
-        #Questions(st.session_state['Index'])
-    #Finish = st.button('Finish Button Part 2')
+        st.empty()
+        st.write()
+        col1.write('-----------------------------------------------------------')
+        st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
+        img_src = '1.jpg'
+        img = Image.open(img_src)
+        arr = np.array(img)
+        #img = imread(img_src)\
+        col1.write('-----------------------------------------------------------')
+        st.write()
+        col2.image(arr)
+    
+    Save = col3.button("Save for Q " + str(st.session_state['Index'] + 1))
+    if Save:
+        st.empty()
+        st.session_state['AnswerList'][st.session_state['Index'] + 1] = [st.session_state['Answer'][0], time_stamp]
+        #st.write(st.session_state['Answer'])
+        
+        if st.session_state['Index'] < len(Ques) - 1:
+            st.session_state['Index'] += 1
+            #Questions(st.session_state['Index'])
+    
     Questions(st.session_state['Index'])
     
     #timer(ts)

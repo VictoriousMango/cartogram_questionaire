@@ -23,9 +23,7 @@ def app(QuizDoc, time_stamp):
         st.session_state['AnswerList'] = dict()
     if 'Index' not in st.session_state:
         st.session_state['Index'] = 0
-    #if st.session_state['Index'] == 7:
-        #col3.empty()
-        #Finish = col3.button('Finito')
+    
     raw_text = {1:[]}
     Answered = dict()
     Questionaire = dict()
@@ -58,47 +56,19 @@ def app(QuizDoc, time_stamp):
         B = ''
         C = ''
         D = ''
-        E = ''
-        F = ''
         for j in raw_text[i]:
             if 'A)' in j:
                 switch = 0
                 A += j
-                
             if 'B)' in j:
                 B += j
-                
             if 'C)' in j:
                 C += j
-                
             if 'D)' in j:
                 D += j
-                
-            if 'E)' in j:
-                E += j
-                
-            if 'F)' in j:
-                F += j
-                
             if switch:
                 Question += j
-        Questionaire[Question] = ['Select Options']
-        if Question != '':
-            pass
-            #Questionaire[Question].append(Question)
-        if A != '':
-            Questionaire[Question].append(A)
-        if B != '':
-            Questionaire[Question].append(B)
-        if C != '':
-            Questionaire[Question].append(C)
-        if D != '':
-            Questionaire[Question].append(D)
-        if E != '':
-            Questionaire[Question].append(E)
-        if F != '':
-            Questionaire[Question].append(F)
-        
+        Questionaire[Question] = [A, B, C, D]
 
     count = 1
     Ques = []
@@ -129,11 +99,11 @@ def app(QuizDoc, time_stamp):
             st.empty()
             st.session_state['AnswerList'][st.session_state['Index'] + 1] = [st.session_state['Answer'][0], time_stamp]
             #st.write(st.session_state['Answer'])
-                
-            if st.session_state['Index'] < len(Ques):
-                st.session_state['Index'] += 1
+            
+        if st.session_state['Index'] < len(Ques):
+            st.session_state['Index'] += 1
         #Questions(st.session_state['Index'])
-    #Finish = st.button('Finish Button Part 2')
+    
     Questions(st.session_state['Index'])
     
     #timer(ts)

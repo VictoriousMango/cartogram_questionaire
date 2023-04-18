@@ -31,7 +31,7 @@ def app():
    # Test Functions
 
    # Title Bar
-   col1, col2 = st.columns([7, 3])
+   col1, col2 = st.columns([6, 4])
    col1.title("Cartogram Assessment")
    ph = col2.empty()
    # Title Bar

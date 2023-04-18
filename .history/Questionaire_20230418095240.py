@@ -5,12 +5,11 @@ from PIL import Image
 import time
 # Importing Files
 import QuizGiver as QG
-import Questionaire as Q
 # Importing Files
 # Imports
 
-def app():
 
+def app():
    # Session States
    if 'time_stamp' not in st.session_state:
       st.session_state['time_stamp'] = 0
@@ -20,7 +19,6 @@ def app():
 
    #Global Variables
    st.session_state['QuizDoc'] = 'Questions.txt'
-   Fin = st.empty()
    #Global Variables
 
    # Test Functions
@@ -31,29 +29,26 @@ def app():
    # Test Functions
 
    # Title Bar
-   col1, col2 = st.columns([7, 3])
+   col1, col2 = st.columns([6, 4])
    col1.title("Cartogram Assessment")
    ph = col2.empty()
    # Title Bar
 
-   #Columns Part 2
-   Endcol1, Endcol2 = st.columns([6, 4])
-   #Columns Part 2
-   Finish = Endcol2.button('Finish', on_click = clicked)
+
+   # Doc to Quiz
+
 
    if st.session_state['QuizDoc']:  
       def Quizzer():
-         Ans = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp']   )
+         Ans = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp'])
          return Ans
       Ans = Quizzer()
-
-   while Finish == False:
-      mins, secs = divmod(st.session_state['time_stamp'], 60)
-      ph.metric("Countdown", f"{mins:02d}:{secs:02d}")
-      time.sleep(1)
-      st.session_state['time_stamp'] += 1
-   if Finish:
-      Q.app()
-
-if __name__ == '__main__':
-   app()
+      #Columns Part 2
+      Endcol1, Endcol2 = st.columns([6, 4])
+      #Columns Part 2
+      Finish = Endcol2.button('Finish', on_click = clicked)
+      while Finish == False:
+         mins, secs = divmod(st.session_state['time_stamp'], 60)
+         ph.metric("Countdown", f"{mins:02d}:{secs:02d}")
+         time.sleep(1)
+         st.session_state['time_stamp'] += 1

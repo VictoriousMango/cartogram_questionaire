@@ -23,9 +23,7 @@ def app(QuizDoc, time_stamp):
         st.session_state['AnswerList'] = dict()
     if 'Index' not in st.session_state:
         st.session_state['Index'] = 0
-    #if st.session_state['Index'] == 7:
-        #col3.empty()
-        #Finish = col3.button('Finito')
+    
     raw_text = {1:[]}
     Answered = dict()
     Questionaire = dict()
@@ -67,25 +65,24 @@ def app(QuizDoc, time_stamp):
                 
             if 'B)' in j:
                 B += j
-                
+                Questionaire[Question].append(B)
             if 'C)' in j:
                 C += j
-                
+                Questionaire[Question].append(C)
             if 'D)' in j:
                 D += j
-                
+                Questionaire[Question].append(D)
             if 'E)' in j:
                 E += j
-                
+                Questionaire[Question].append(E)
             if 'F)' in j:
                 F += j
-                
+                Questionaire[Question].append(F)
             if switch:
                 Question += j
         Questionaire[Question] = ['Select Options']
         if Question != '':
-            pass
-            #Questionaire[Question].append(Question)
+            Questionaire[Question].append(Question)
         if A != '':
             Questionaire[Question].append(A)
         if B != '':

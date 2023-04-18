@@ -23,9 +23,9 @@ def app(QuizDoc, time_stamp):
         st.session_state['AnswerList'] = dict()
     if 'Index' not in st.session_state:
         st.session_state['Index'] = 0
-    #if st.session_state['Index'] == 7:
-        #col3.empty()
-        #Finish = col3.button('Finito')
+    if st.session_state['Index'] == 7:
+        col3.empty()
+        Finish = col3.button('Finito')
     raw_text = {1:[]}
     Answered = dict()
     Questionaire = dict()

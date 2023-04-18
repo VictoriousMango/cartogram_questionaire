@@ -5,7 +5,6 @@ from PIL import Image
 import time
 # Importing Files
 import QuizGiver as QG
-import Questionaire as Q
 # Importing Files
 # Imports
 
@@ -31,7 +30,7 @@ def app():
    # Test Functions
 
    # Title Bar
-   col1, col2 = st.columns([7, 3])
+   col1, col2 = st.columns([6, 4])
    col1.title("Cartogram Assessment")
    ph = col2.empty()
    # Title Bar
@@ -43,7 +42,7 @@ def app():
 
    if st.session_state['QuizDoc']:  
       def Quizzer():
-         Ans = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp']   )
+         Ans = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp'], Finish)
          return Ans
       Ans = Quizzer()
 
@@ -53,7 +52,7 @@ def app():
       time.sleep(1)
       st.session_state['time_stamp'] += 1
    if Finish:
-      Q.app()
+      return Fin.write('Thank You')
 
-if __name__ == '__main__':
-   app()
+app()
+   # Doc to Quiz

@@ -31,7 +31,7 @@ def app():
    # Test Functions
 
    # Title Bar
-   col1, col2 = st.columns([7, 3])
+   col1, col2 = st.columns([6, 4])
    col1.title("Cartogram Assessment")
    ph = col2.empty()
    # Title Bar
@@ -53,7 +53,7 @@ def app():
       time.sleep(1)
       st.session_state['time_stamp'] += 1
    if Finish:
-      Q.app()
+      return Fin.write('Thank You')
 
 if __name__ == '__main__':
    app()

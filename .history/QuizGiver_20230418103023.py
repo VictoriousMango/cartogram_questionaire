@@ -23,9 +23,7 @@ def app(QuizDoc, time_stamp):
         st.session_state['AnswerList'] = dict()
     if 'Index' not in st.session_state:
         st.session_state['Index'] = 0
-    #if st.session_state['Index'] == 7:
-        #col3.empty()
-        #Finish = col3.button('Finito')
+    
     raw_text = {1:[]}
     Answered = dict()
     Questionaire = dict()
@@ -123,7 +121,12 @@ def app(QuizDoc, time_stamp):
             col1.write('-----------------------------------------------------------')
             st.write()
             col2.image(arr)
+        else:
+            Finish = ('Finito')
+            return Finish
     if st.session_state['Index'] < len(Ques):
+        def Terminate():
+            st.empty()
         Save = col3.button("Save for Q " + str(st.session_state['Index'] + 1))
         if Save:
             st.empty()
@@ -134,7 +137,9 @@ def app(QuizDoc, time_stamp):
                 st.session_state['Index'] += 1
         #Questions(st.session_state['Index'])
     #Finish = st.button('Finish Button Part 2')
-    Questions(st.session_state['Index'])
+    Fin = Questions(st.session_state['Index'])
+    if Fin:
+        Terminate()
     
     #timer(ts)
 

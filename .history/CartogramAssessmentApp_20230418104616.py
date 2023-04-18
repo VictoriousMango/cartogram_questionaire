@@ -5,8 +5,8 @@ from PIL import Image
 import time
 # Importing Files
 import QuizGiver as QG
+import Questionaire as Q
 # Importing Files
 # Imports
 
-def app():
-    st.header('Thank You For Your Patience')
+Q.app()
