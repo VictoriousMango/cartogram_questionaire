@@ -121,7 +121,7 @@ def app(QuizDoc, time_stamp):
                 try:
                     img = Image.open(img_src)
                 except FileNotFoundError:
-                    img_src = f'{Index + 1}.png'
+                    img_src = f'{Index + 1}.jpg'
                     img = Image.open(img_src)
                 #img = Image.open(img_src)
                 arr = np.array(img)
