@@ -38,8 +38,6 @@ def app():
    # Doc to Quiz
 
 
-
-
    if st.session_state['QuizDoc']:  
       def Quizzer():
          Ans = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp'])
