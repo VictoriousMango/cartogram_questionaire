@@ -43,11 +43,11 @@ D) Would not like to answer
 
 break
 
-Q6) Do you agree with this thing too:
+Q6) this is q no 6:
 
 A) Yes
 B) No
-C) May Be
+C) ok
 D) Would not like to answer
 
 break
