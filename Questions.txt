@@ -34,11 +34,11 @@ D) Would not like to answer
 
 break
 
-Q5) Do you agree with this thing too:
+Q5) This is Question number is 5:
 
 A) Yes
 B) No
-C) May Be
+C) good
 D) Would not like to answer
 
 break
