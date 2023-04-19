@@ -179,8 +179,8 @@ def app(QuizDoc, time_stamp):
     #    st.write(Answered[i])
     Ans = st.session_state['AnswerList']
     Index = st.session_state['Index']
-    
-    return Ans, Index
+
+    return [Ans, Index]
     #Answer = st.selectbox('Enter you choice', options = Option)
     #Next = st.button("Next")
     #st.write("Found Break")
