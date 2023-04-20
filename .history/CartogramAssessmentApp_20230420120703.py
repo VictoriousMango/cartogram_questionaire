@@ -5,7 +5,6 @@ from PIL import Image
 import time
 # Importing Files
 import QuizGiver as QG
-import WelcomePage as WP
 import ThankYouPage as Q
 # Importing Files
 # Imports
@@ -68,7 +67,4 @@ def app():
       Q.app()
 
 if __name__ == '__main__':
-   (Name, Email) = WP.app()
-   st.write(Name)
-   st.write(Email)
    app()
