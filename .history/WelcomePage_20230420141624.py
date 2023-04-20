@@ -6,7 +6,6 @@ def app():
     def click():
         st.session_state['Start'] = 1
     ph = st.empty()
-    Key = ''
     if st.session_state['Start'] == 1:    
         st.title('Welcome User')
         Name = st.text_input('Enter Your Name')
