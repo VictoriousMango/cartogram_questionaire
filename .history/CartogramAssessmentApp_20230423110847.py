@@ -33,11 +33,11 @@ def app():
    def clicked():
       st.write('Finished')
       #WriteAnswers = st.session_state['Answers']
-      #with open("Answer.json", 'r') as read:
-      #    db = json.load(read)
-      #    db[Key] = Ans
-      #with open("Answer.json", "w") as outfile:
-      #    json.dump(db, outfile, indent = 4)
+      with open("Answer.json", 'r') as read:
+          db = json.load(read)
+          db[Key] = Ans
+      with open("Answer.json", "w") as outfile:
+          json.dump(db, outfile, indent = 4)
       st.write(Ans)
       
 

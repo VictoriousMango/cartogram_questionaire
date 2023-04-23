@@ -18,14 +18,14 @@ def app():
    if 'QuizDoc' not in st.session_state:
       st.session_state['QuizDoc'] = 0
    #if 'Answers' not in st.session_state:
-      st.session_state['Answers'] = 0
+   #   st.session_state['Answers'] = 0
    #if 'Key' not in st.session_state:
    #   st.session_state['Key'] = 0
    #st.session_state['Key'] = Key
    # End Session States
 
    #Global Variables
-   st.session_state['QuizDoc'] = 'Questions.txt'
+   st.s  Qession_state['QuizDoc'] = 'Questions.txt'
    Fin = st.empty()
    #Global Variables
 
@@ -33,11 +33,11 @@ def app():
    def clicked():
       st.write('Finished')
       #WriteAnswers = st.session_state['Answers']
-      #with open("Answer.json", 'r') as read:
-      #    db = json.load(read)
-      #    db[Key] = Ans
-      #with open("Answer.json", "w") as outfile:
-      #    json.dump(db, outfile, indent = 4)
+      with open("Answer.json", 'r') as read:
+          db = json.load(read)
+          db[Key] = Ans
+      with open("Answer.json", "w") as outfile:
+          json.dump(db, outfile, indent = 4)
       st.write(Ans)
       
 
