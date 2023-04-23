@@ -79,9 +79,9 @@ def app():
       st.session_state['time_stamp'] += 1
    if Finish:
       VanishEndcol2.empty()
-      #with open("Answer.json", 'r') as read:
-      #    db = json.load(read)
-      #    db[Key] = Ans
+      with open("Answer.json", 'r') as read:
+          db = json.load(read)
+          db[Key] = Ans
       Q.app()
 
 if __name__ == '__main__':
