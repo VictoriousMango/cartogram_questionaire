@@ -10,7 +10,6 @@ import QuizGiver as QG
 
 def app(Key, Ans):
     st.header('Thank You For Your Patience')
-    st.write(Key)
     st.write(Ans)
     #with open("Answer.txt", 'r') as file:
     #      db = file.read()
@@ -18,4 +17,4 @@ def app(Key, Ans):
     #with open("Answer.txt", "w") as outfile:
     #    outfile.write(db)
         #json.dump(db, outfile, indent = 4)
-    #st.write(Ans)
+    st.write(Ans)

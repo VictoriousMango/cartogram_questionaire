@@ -85,6 +85,4 @@ if __name__ == '__main__':
    #st.write(Key)
    #st.write(Email)
    if Start:
-      (Key, Ans) = app()
-   if Key and Ans:
-      print('Ready to append')
+      app()
