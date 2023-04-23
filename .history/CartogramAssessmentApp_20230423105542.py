@@ -3,7 +3,6 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 import time
-import json
 # Importing Files
 import QuizGiver as QG
 import WelcomePage as WP
@@ -11,7 +10,7 @@ import ThankYouPage as Q
 # Importing Files
 # Imports
 
-def app(Key):
+def app():
    # Session States
    if 'time_stamp' not in st.session_state:
       st.session_state['time_stamp'] = 0
@@ -19,8 +18,6 @@ def app(Key):
       st.session_state['QuizDoc'] = 0
    if 'Answers' not in st.session_state:
       st.session_state['Answers'] = 0
-   if 'Key' not in st.session_state:
-      st.session_state['Key'] = Key
    # End Session States
 
    #Global Variables
@@ -34,7 +31,7 @@ def app(Key):
       WriteAnswers = st.session_state['Answers']
       with open("Answer.json", 'r') as readfile:
           db = json.load(readfile)
-          db[st.session_state['Key']] = Ans
+          db[Name] = Ans
       with open("Answer.json", "w") as outfile:
           json.dump(db, outfile, indent = 4)
       st.write(WriteAnswers)
@@ -85,4 +82,4 @@ if __name__ == '__main__':
    #st.write(Key)
    #st.write(Email)
    if Start:
-      app(Key)
+      app()
