@@ -8,6 +8,5 @@ import QuizGiver as QG
 # Importing Files
 # Imports
 
-def app(Ans):
+def app():
     st.header('Thank You For Your Patience')
-    st.write(Ans)
