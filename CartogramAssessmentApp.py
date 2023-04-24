@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 import time
 import json
-import Database as db
+# import Database as db
 # import pymongo
 # Importing Files
 import QuizGiver as QG
@@ -92,4 +92,4 @@ if __name__ == '__main__':
         Q.app(Key, Ans)
     if Ans:
         print('Ready to append')
-        db.app(Key, Ans)
+        #db.app(Key, Ans)
