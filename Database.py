@@ -1,5 +1,7 @@
-# import pymongo
+import pymongo
+# from google.cloud import firestore
 import pyrebase
+import streamlit as st
 
 
 def app(Key, Ans):
@@ -7,8 +9,9 @@ def app(Key, Ans):
     db = client['CartogramAssessment']
     # collection = db['Answers']
     posts = db.Answers
-    post_id = posts.insert_one({Key: Ans}).inserted_id
+    post_id = posts.insert_one({Key: str(Ans)}).inserted_id
     print(post_id)
+    st.write('Answers Saved')
 
 
 if __name__ == '__main__':

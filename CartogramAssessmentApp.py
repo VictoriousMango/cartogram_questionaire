@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 import time
 import json
-# import Database as db
+import Database as db
 # import pymongo
 # Importing Files
 import QuizGiver as QG
@@ -49,10 +49,10 @@ def app():
 
     if st.session_state['QuizDoc']:
         def Quizzer():
-            Ans, Index = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp'])
-            return Ans, Index
+            (Ans, Index, NumberOfQuestions) = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp'])
+            return Ans, Index, NumberOfQuestions
 
-        (Ans, Index) = Quizzer()
+        (Ans, Index, NumberOfQuestions) = Quizzer()
         st.session_state['Answers'] = Ans
         # Columns Part 2
         Endcol1, Endcol2 = st.columns([6, 4])
@@ -64,7 +64,7 @@ def app():
             Finish = VanishEndcol2.button(str, on_click=clicked)
             return Finish
 
-        if Index == 7:
+        if Index == NumberOfQuestions:
             Finish = finish('Finish')
         else:
             Finish = False
@@ -92,4 +92,4 @@ if __name__ == '__main__':
         Q.app(Key, Ans)
     if Ans:
         print('Ready to append')
-        #db.app(Key, Ans)
+        db.app(Key, Ans)
