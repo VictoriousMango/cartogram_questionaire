@@ -6,7 +6,6 @@ import json
 
 
 def app(Key, Ans):
-    '''
     client = pymongo.MongoClient('mongodb+srv://yadashesh:yadashesh@cluster0.lqsjbx0.mongodb.net/CartogramAssessment')
     db = client['CartogramAssessment']
     # collection = db['Answers']
@@ -21,6 +20,7 @@ def app(Key, Ans):
     with open("Answer.json", "w") as outfile:
         json.dump(db, outfile, indent=4)
     st.write('Answers Saved Successfully')
+    '''
 
 if __name__ == '__main__':
     print('Welcome To Pymongo')
