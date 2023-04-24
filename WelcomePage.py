@@ -15,6 +15,8 @@ def app():
         st.title('Welcome User')
         Name = st.text_input('Enter Your Name')
         Email = st.text_input('Enter Your Email Address')
+        Age = st.text_input('Enter Your Age')
+        Address = st.text_input('Enter Your Address')
         st.session_state['Key'] = Name + Email
         Save = st.button('Save', on_click=click)
         if Save:
