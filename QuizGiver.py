@@ -122,13 +122,14 @@ def app(QuizDoc, time_stamp):
                 img_src = f'{Index + 1}.jpg'
                 try:
                     img = Image.open(img_src)
-                except FileNotFoundError:
-                    img_src = f'{Index + 1}.png'
-                    img = Image.open(img_src)
-                try:
                     arr = np.array(img)
                 except FileNotFoundError:
-                    pass
+                    img_src = f'{Index + 1}.png'
+                    try:
+                        img = Image.open(img_src)
+                        arr = np.array(img)
+                    except FileNotFoundError:
+                        pass
                 # img = imread(img_src)\
                 col2.write('-----------------------------------------------------------')
                 col2.image(arr)
