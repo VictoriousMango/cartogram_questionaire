@@ -20,6 +20,7 @@ def app(Key, Ans):
         db[Key] = Ans
     with open("DataBase.json", "w") as outfile:
         json.dump(db, outfile, indent=4)
+    st.write('Answers Saved Successfully')
 
 if __name__ == '__main__':
     print('Welcome To Pymongo')
