@@ -187,8 +187,7 @@ D- lowest
 
 break
 
-Q21) Compared the Red district in the Map-A has the Blue district in the
-Map-B grown or shrunk? 2021-Chitrakut
+Q21) Compared the Red district in the Map-A has the Blue district in the Map-B grown or shrunk? 2021-Chitrakut
 
 A) Shrunk
 B) Grown
@@ -196,8 +195,7 @@ C) No Change
 
 break
 
-Q22) Compared the Red district in the Map-A has the Blue district in the
-Map-B grown or shrunk? 2020-Ballia
+Q22) Compared the Red district in the Map-A has the Blue district in the Map-B grown or shrunk? 2020-Ballia
 
 A) Shrunk
 B) Grown
@@ -205,8 +203,7 @@ C) No Change
 
 break
 
-Q23) Compared the Red district in the Map-A has the Blue district in the
-Map-B grown or shrunk? 2019-Mainpuri
+Q23) Compared the Red district in the Map-A has the Blue district in the Map-B grown or shrunk? 2019-Mainpuri
 
 A) Shrunk
 B) Grown
@@ -214,8 +211,7 @@ C) No Change
 
 break
 
-Q24) Compared the Red district in the Map-A has the Blue district in the
-Map-B grown or shrunk? 2018-Deoria
+Q24) Compared the Red district in the Map-A has the Blue district in the Map-B grown or shrunk? 2018-Deoria
 
 A) Shrunk
 B) Grown
@@ -223,8 +219,7 @@ C) No Change
 
 break
 
-Q25) Compared the Red district in the Map-A has the Blue district in the
-Map-B grown or shrunk? 2017-Bareilly
+Q25) Compared the Red district in the Map-A has the Blue district in the Map-B grown or shrunk? 2017-Bareilly
 
 A) Shrunk
 B) Grown
@@ -232,8 +227,7 @@ C) No Change
 
 break
 
-Q26) Which District is the neighbor of the highlighted district? (lalitpur)
-2021
+Q26) Which District is the neighbor of the highlighted district? (lalitpur) 2021
 
 A) Jhansi*
 B) Mahoba
@@ -242,13 +236,94 @@ D) Hamirpur
 
 break
 
-Q27) Which District is the neighbor of the highlighted district?
-(Bulandshahr) 2020
+Q27) Which District is the neighbor of the highlighted district? (Bulandshahr) 2020
 
 A) Hatras
 B) Hapur*
 C) Moradabad
 D) Mathura
+
+break
+
+Q28) Which District is the neighbor of the highlighted district? (Lucknow) 2019
+
+A) Unnao*
+B) Lakhimpur Kheri
+C) Amethi
+D) Fatehpur
+
+break
+
+Q29) Which District is the neighbor of the highlighted district? (Mau) 2018
+
+A) Gonda
+B) Jaunpur
+C) Chandauli
+D) Azamgarh*
+
+break
+
+Q30) Which District is the neighbor of the highlighted district? (Kaushambi) 2017
+
+A) Fatehpur*
+B) Sultanpur
+C) Banda
+D) Amethi
+
+break
+
+Q31) In which year highest number of the crimes happened in Bareilly?
+
+B) 2020
+C) 2019
+D) 2018
+E) 2017
+
+break
+
+Q32) In which year lowest number of the crimes happened in Bareilly?
+
+A) 2021
+B) 2020
+C) 2019
+D) 2018
+E) 2017
+
+break
+
+Q33) In which year highest number of crimes happened in Ghaziabad ?
+
+A) 2021
+B) 2020
+C) 2019
+D) 2018
+E) 2017
+
+break
+
+Q34) In which year lowest number of crimes happened in Ghaziabad ?
+
+A) 2021
+B) 2020
+C) 2019
+D) 2018
+E) 2017
+
+break
+
+What can you say about the trend in crime since 5years back in "Kanpur Nagar" ?
+
+Increased
+Decreased
+No Change
+
+break
+
+
+
+
+
+
 
 
 
