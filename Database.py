@@ -15,10 +15,10 @@ def app(Key, Ans):
     print(post_id)
     st.write('Answers Saved')
     '''
-    with open("DataBase.json", 'r') as readfile:
+    with open("Answer.json", 'r') as readfile:
         db = json.load(readfile)
         db[Key] = Ans
-    with open("DataBase.json", "w") as outfile:
+    with open("Answer.json", "w") as outfile:
         json.dump(db, outfile, indent=4)
     st.write('Answers Saved Successfully')
 
