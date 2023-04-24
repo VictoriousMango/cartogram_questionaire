@@ -119,20 +119,21 @@ def app(QuizDoc, time_stamp):
                 st.write()
                 col1.write('--------------------------------------------------------------')
                 st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
+                img_src = f'{Index + 1}.jpg'
                 try:
-                    img_src = f'{Index + 1}.jpg'
+                    img = Image.open(img_src)
+                except FileNotFoundError:
                     try:
-                        img = Image.open(img_src)
-                    except FileNotFoundError:
                         img_src = f'{Index + 1}.png'
                         img = Image.open(img_src)
-                    arr = np.array(img)
-                    # img = imread(img_src)\
-                    col2.write('-----------------------------------------------------------')
-                    col2.image(arr)
-                    # col2.write('-----------------------------------------------------------')
-                except FileNotFoundError:
-                    pass
+                    except FileNotFoundError:
+                        pass
+                arr = np.array(img)
+                # img = imread(img_src)\
+                col2.write('-----------------------------------------------------------')
+                col2.image(arr)
+                # col2.write('-----------------------------------------------------------')
+                
                 st.write('-----------------------------------------------------------')
                 st.write()
 
