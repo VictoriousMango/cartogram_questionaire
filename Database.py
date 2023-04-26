@@ -32,6 +32,7 @@ def app(Key, Ans):
         return db.get(period)
 
     insert_ans(Key, Ans)
+    st.write('Answers Saved Successful')
     '''
     client = pymongo.MongoClient('mongodb+srv://yadashesh:yadashesh@cluster0.lqsjbx0.mongodb.net/CartogramAssessment')
     db = client['CartogramAssessment']
@@ -52,6 +53,7 @@ def app(Key, Ans):
 
 
 if __name__ == '__main__':
-    print('Welcome To Pymongo')
+    print('Welcome To Deta')
+    app('Key', 'Answers to the given question')
     # client = pymongo.MongoClient()
     # app()
