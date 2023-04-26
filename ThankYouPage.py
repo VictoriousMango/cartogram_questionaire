@@ -10,8 +10,8 @@ import QuizGiver as QG
 
 def app(Key, Ans):
     st.header('Thank You For Your Patience')
-    st.write(Key)
-    st.write(Ans)
+    #st.write(Key)
+    #st.write(Ans)
 
     #with open("Answer.txt", "w") as outfile:
     #    outfile.write(db)
