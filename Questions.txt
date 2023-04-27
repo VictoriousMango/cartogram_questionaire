@@ -91,35 +91,35 @@ break
 Q11) Visually Which state is bigger in size : Blue or Yellow? (2021):
 
 A) Barabanki (Blue)
-B) Lucknow (Red)
+B) Lucknow (Yellow)
 
 break
 
 Q12) Visually Which state is bigger in size : Blue or Yellow? (2020):
 
 A) Pratapgarh(Blue)
-B) Ambedkar Nagar(Red)
+B) Ambedkar Nagar(Yellow)
 
 break
 
 Q13) Visually Which state is bigger in size : Blue or Yellow? (2019):
 
 A) Banda(Blue)
-B) Mahoba(Red)
+B) Mahoba(Yellow)
 
 break
 
 Q14) Visually Which state is bigger in size : Blue or Yellow? (2018):
  
 A) Kannauj(blue)
-B) Auraiya(red)
+B) Auraiya(Yellow)
 
 break
 
 Q15) Visually Which state is bigger in size : Blue or Yellow? (2017):
 
 A) Siddarth Nagar(blue)
-B) Maharajganj(red)
+B) Maharajganj(Yellow)
 
 break
 
@@ -410,35 +410,35 @@ break
 Q46) Visually Which state is bigger in size : Blue or Yellow? (2021):
 
 A) Barabanki (Blue)
-B) Lucknow (Red)
+B) Lucknow (Yellow)
 
 break
 
 Q47) Visually Which state is bigger in size : Blue or Yellow? (2020):
 
 A) Pratapgarh(Blue)
-B) Ambedkar Nagar(Red)
+B) Ambedkar Nagar(Yellow)
 
 break
 
 Q48) Visually Which state is bigger in size : Blue or Yellow? (2019):
 
 A) Banda(Blue)
-B) Mahoba(Red)
+B) Mahoba(Yellow)
 
 break
 
 Q49) Visually Which state is bigger in size : Blue or Yellow? (2018):
  
 A) Kannauj(blue)
-B) Auraiya(red)
+B) Auraiya(Yellow)
 
 break
 
 Q50) Visually Which state is bigger in size : Blue or Yellow? (2017):
 
 A) Siddarth Nagar(blue)
-B) Maharajganj(red)
+B) Maharajganj(Yellow)
 
 break
 
@@ -731,35 +731,35 @@ break
 Q81) Visually Which state is bigger in size : Blue or Yellow? (2021):
 
 A) Barabanki (Blue)
-B) Lucknow (Red)
+B) Lucknow (Yellow)
 
 break
 
 Q82) Visually Which state is bigger in size : Blue or Yellow? (2020):
 
 A) Pratapgarh(Blue)
-B) Ambedkar Nagar(Red)
+B) Ambedkar Nagar(Yellow)
 
 break
 
 Q83) Visually Which state is bigger in size : Blue or Yellow? (2019):
 
 A) Banda(Blue)
-B) Mahoba(Red)
+B) Mahoba(Yellow)
 
 break
 
 Q84) Visually Which state is bigger in size : Blue or Yellow? (2018):
  
 A) Kannauj(blue)
-B) Auraiya(red)
+B) Auraiya(Yellow)
 
 break
 
 Q85) Visually Which state is bigger in size : Blue or Yellow? (2017):
 
 A) Siddarth Nagar(blue)
-B) Maharajganj(red)
+B) Maharajganj(Yellow)
 
 break
 
@@ -1052,35 +1052,35 @@ break
 Q116) Visually Which state is bigger in size : Blue or Yellow? (2021):
 
 A) Barabanki (Blue)
-B) Lucknow (Red)
+B) Lucknow (Yellow)
 
 break
 
 Q117) Visually Which state is bigger in size : Blue or Yellow? (2020):
 
 A) Pratapgarh(Blue)
-B) Ambedkar Nagar(Red)
+B) Ambedkar Nagar(Yellow)
 
 break
 
 Q118) Visually Which state is bigger in size : Blue or Yellow? (2019):
 
 A) Banda(Blue)
-B) Mahoba(Red)
+B) Mahoba(Yellow)
 
 break
 
 Q119) Visually Which state is bigger in size : Blue or Yellow? (2018):
  
 A) Kannauj(blue)
-B) Auraiya(red)
+B) Auraiya(Yellow)
 
 break
 
 Q120) Visually Which state is bigger in size : Blue or Yellow? (2017):
 
 A) Siddarth Nagar(blue)
-B) Maharajganj(red)
+B) Maharajganj(Yellow)
 
 break
 
