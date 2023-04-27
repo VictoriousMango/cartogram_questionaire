@@ -317,7 +317,15 @@ A) Increased
 B) Decreased
 C) No Change
 
-Q36) Locate "Bareilly" District according to 2021 Map:
+break
+
+Q36) You can take break now
+
+Z)
+
+break
+
+Q37) Locate "Bareilly" District according to 2021 Map:
 
 A) A
 B) B
@@ -326,7 +334,7 @@ D) D
 
 break
 
-Q37) Locate "Lucknow" District according to 2020 Map:
+Q38) Locate "Lucknow" District according to 2020 Map:
 
 A) A
 B) B
@@ -335,7 +343,7 @@ D) D
 
 break
 
-Q38) Locate "Basti" District according to 2019 Map:
+Q39) Locate "Basti" District according to 2019 Map:
 
 A) A
 B) B
@@ -344,7 +352,7 @@ D) D
 
 break
 
-Q39) Locate "Gonda" District according to 2018 Map:
+Q40) Locate "Gonda" District according to 2018 Map:
 
 A) A
 B) B
@@ -353,7 +361,7 @@ D) D
 
 break
 
-Q40) Locate "Sant Kabir Nagar" according to 2017 Map:
+Q41) Locate "Sant Kabir Nagar" according to 2017 Map:
 
 A) A
 B) B
@@ -362,7 +370,7 @@ D) D
 
 break
 
-Q41) Identify the name of the highlighted district from the given map (2021):
+Q42) Identify the name of the highlighted district from the given map (2021):
 
 A) Baghpat
 B) Sonbhadra
@@ -371,7 +379,7 @@ D) Saharanpur
 
 break
 
-Q42) Identify the name of the highlighted district from the given map (2020):
+Q43) Identify the name of the highlighted district from the given map (2020):
 
 A) Chandauli
 B) Mirzapur
@@ -380,7 +388,7 @@ D) Gazipur
 
 break
 
-Q43) Identify the name of the highlighted district from the given map (2019):
+Q44) Identify the name of the highlighted district from the given map (2019):
 
 A) Hardoi
 B) Auraiya
@@ -389,7 +397,7 @@ D) Kannauj*
 
 break
 
-Q44) Identify the name of the highlighted district from the given map (2018):
+Q45) Identify the name of the highlighted district from the given map (2018):
 
 A) Etah
 B) Farrukhabad*
@@ -398,7 +406,7 @@ D) Hardoi
 
 break
 
-Q45) Identify the name of the highlighted district from the given map (2017):
+Q46) Identify the name of the highlighted district from the given map (2017):
 
 A) Faizabad*
 B) Ambedkar Nagar
@@ -407,42 +415,42 @@ D) Amethi
 
 break
 
-Q46) Visually Which state is bigger in size : Blue or Yellow? (2021):
+Q47) Visually Which state is bigger in size : Blue or Yellow? (2021):
 
 A) Barabanki (Blue)
 B) Lucknow (Yellow)
 
 break
 
-Q47) Visually Which state is bigger in size : Blue or Yellow? (2020):
+Q48) Visually Which state is bigger in size : Blue or Yellow? (2020):
 
 A) Pratapgarh(Blue)
 B) Ambedkar Nagar(Yellow)
 
 break
 
-Q48) Visually Which state is bigger in size : Blue or Yellow? (2019):
+Q49) Visually Which state is bigger in size : Blue or Yellow? (2019):
 
 A) Banda(Blue)
 B) Mahoba(Yellow)
 
 break
 
-Q49) Visually Which state is bigger in size : Blue or Yellow? (2018):
+Q50) Visually Which state is bigger in size : Blue or Yellow? (2018):
  
 A) Kannauj(blue)
 B) Auraiya(Yellow)
 
 break
 
-Q50) Visually Which state is bigger in size : Blue or Yellow? (2017):
+Q51) Visually Which state is bigger in size : Blue or Yellow? (2017):
 
 A) Siddarth Nagar(blue)
 B) Maharajganj(Yellow)
 
 break
 
-Q51) Find the district with the highest and lowest crime rate (2021):
+Q52) Find the district with the highest and lowest crime rate (2021):
 
 A - Highest*
 A- Lowest
