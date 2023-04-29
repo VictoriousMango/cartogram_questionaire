@@ -82,7 +82,7 @@ def app():
 
 
 if __name__ == '__main__':
-    Intro.app()
+    #Intro.app()
     (Key, Start) = WP.app()
     # st.write(Key)
     # st.write(Email)
