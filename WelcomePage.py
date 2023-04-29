@@ -15,7 +15,7 @@ def app():
     if st.session_state['Proceed'] == 0:
         #with ph.contianer():
         st.title('Welcome to Cartogram Evaluation Portal')
-        st.image('WelcomePage.gif')
+        st.image('https://github.com/VictoriousMango/cartogram_questionaire/blob/6d752b9f07d212ec731c902a54e64987d7e16008/WelcomePage.gif')
         Save = st.button('Proceed', on_click=click)
         if Save:
             st.empty()
