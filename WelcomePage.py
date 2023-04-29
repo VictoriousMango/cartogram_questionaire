@@ -20,7 +20,7 @@ def app():
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
         st.markdown(
-            f'<img src="data:image/gif;base64,{data_url}" alt="cat gif" width="250">',
+            f'<img src="data:image/gif;base64,{data_url}" alt="cat gif" width="500">',
             unsafe_allow_html=True,
         )
         Save = st.button('Proceed', on_click=click)
