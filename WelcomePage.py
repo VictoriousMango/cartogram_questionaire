@@ -12,7 +12,7 @@ def app():
     ph = st.empty()
     #Key = ''
     #Start = 0
-    if st.session_state['Start'] == 0:    
+    if st.session_state['Proceed'] == 0:
         #with ph.contianer():
         st.title('Welcome to Cartogram Evaluation Portal')
         file_ = open("WelcomePage.gif", "rb")
