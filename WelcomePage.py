@@ -1,3 +1,5 @@
+import base64
+
 import streamlit as st
 def app():
     if 'Start' not in st.session_state:
