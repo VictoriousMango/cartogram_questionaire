@@ -12,16 +12,18 @@ def app():
     #Start = 0
     if st.session_state['Start'] == 0:    
         #with ph.contianer():
-        st.title('Welcome User')
-        Name = st.text_input('Enter Your Name')
-        Email = st.text_input('Enter Your Email Address')
-        Age = st.text_input('Enter Your Age')
-        Address = st.text_input('Enter Your Address')
-        st.session_state['Key'] = Name + Email
-        Save = st.button('Save', on_click=click)
+        st.title('Welcome to Cartogram Evaluation Portal')
+        file_ = open("WelcomePage.gif", "rb")
+        contents = file_.read()
+        data_url = base64.b64encode(contents).decode("utf-8")
+        file_.close()
+        st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
+            unsafe_allow_html=True,
+        )
+        Save = st.button('Proceed', on_click=click)
         if Save:
             st.empty()
-    Start = st.session_state['Start']
-    Key = st.session_state['Key']
-    return(Key, Start)
+    #Start = st.session_state['Start']
+    #Key = st.session_state['Key']
     

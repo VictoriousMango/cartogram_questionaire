@@ -8,7 +8,8 @@ import Database as db
 # import pymongo
 # Importing Files
 import QuizGiver as QG
-import WelcomePage as WP
+import WelcomePage as Intro
+import UserDetails as WP
 import ThankYouPage as Q
 
 
@@ -81,6 +82,7 @@ def app():
 
 
 if __name__ == '__main__':
+    Intro.app()
     (Key, Start) = WP.app()
     # st.write(Key)
     # st.write(Email)
