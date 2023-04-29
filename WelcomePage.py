@@ -14,7 +14,7 @@ def app():
     #Start = 0
     if st.session_state['Proceed'] == 0:
         #with ph.contianer():
-        st.title('Welcome to Cartogram Evaluation Portal')
+        st.header('Welcome to Cartogram Evaluation Portal')
         file_ = open("WelcomePage.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
