@@ -19,9 +19,9 @@ def app():
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
-        st.image(
-            data_url,  # I prefer to load the GIFs using GIPHY
-            width=400, # The actual size of most gifs on GIPHY are really small, and using the column-width parameter would make it weirdly big. So I would suggest adjusting the width manually!
+        st.markdown(
+            f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
+            unsafe_allow_html=True,
         )
         Save = st.button('Proceed', on_click=click)
         if Save:
