@@ -24,13 +24,11 @@ def app():
             unsafe_allow_html=True,
         )
 
-        st.markdown('''
-         Cartogram is a Thematic map of a set of features (countries, provinces, etc.), in which their geographic size is altered 
-               to be directly proportional to a selected ratio-level variable, such as travel time, population, or GNP. 
-                                        Your responses are appreciated. Feel free to answer without any stress.
-                                                           “You can take break in every section”
+        st.markdown('Cartogram is a Thematic map of a set of features (countries, provinces, etc.), in which their geographic size is altered')
+        st.markdown('       to be directly proportional to a selected ratio-level variable, such as travel time, population, or GNP. ')
+        st.markdown('                                Your responses are appreciated. Feel free to answer without any stress.')
+        st.markdown('                                                   “You can take break in every section”')
 
-        ''')
         Save = st.button('Proceed', on_click=click)
         if Save:
             st.empty()
