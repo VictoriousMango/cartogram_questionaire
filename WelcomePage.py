@@ -15,14 +15,7 @@ def app():
     if st.session_state['Proceed'] == 0:
         #with ph.contianer():
         st.title('Welcome to Cartogram Evaluation Portal')
-        file_ = open("WelcomePage.gif", "rb")
-        contents = file_.read()
-        data_url = base64.b64encode(contents).decode("utf-8")
-        file_.close()
-        st.markdown(
-            f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
-            unsafe_allow_html=True,
-        )
+        st.image('WelcomePage.gif')
         Save = st.button('Proceed', on_click=click)
         if Save:
             st.empty()
