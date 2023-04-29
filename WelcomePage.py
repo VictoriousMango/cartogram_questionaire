@@ -2,7 +2,7 @@ import base64
 
 import streamlit as st
 def app():
-    if 'Start' not in st.session_state:
+    if 'Proceed' not in st.session_state:
         st.session_state['Proceed'] = 0
     #if 'Key' not in st.session_state:
         #st.session_state['Key'] = ''
