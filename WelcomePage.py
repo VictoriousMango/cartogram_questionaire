@@ -24,10 +24,10 @@ def app():
             unsafe_allow_html=True,
         )
         '''
-        Cartogram is a Thematic map of a set of features (countries, provinces, etc.), in which their geographic size is altered 
-                to be directly proportional to a selected ratio-level variable, such as travel time, population, or GNP. 
-                                        Your responses are appreciated. Feel free to answer without any stress.
-                                                            “You can take break in every section”
+        ###Cartogram is a Thematic map of a set of features (countries, provinces, etc.), in which their geographic size is altered 
+        ###        to be directly proportional to a selected ratio-level variable, such as travel time, population, or GNP. 
+        ###                                Your responses are appreciated. Feel free to answer without any stress.
+        ###                                                    “You can take break in every section”
 
         '''
         Save = st.button('Proceed', on_click=click)
