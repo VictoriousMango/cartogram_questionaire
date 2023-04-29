@@ -82,8 +82,9 @@ def app():
 
 
 if __name__ == '__main__':
-    Intro.app()
-    (Key, Start) = WP.app()
+    Proceed = Intro.app()
+    if Proceed:
+        (Key, Start) = WP.app()
     # st.write(Key)
     # st.write(Email)
     Finish = 0

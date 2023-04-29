@@ -3,12 +3,12 @@ import base64
 import streamlit as st
 def app():
     if 'Start' not in st.session_state:
-        st.session_state['Start'] = 0
-    if 'Key' not in st.session_state:
-        st.session_state['Key'] = ''
+        st.session_state['Proceed'] = 0
+    #if 'Key' not in st.session_state:
+        #st.session_state['Key'] = ''
 
     def click():
-        st.session_state['Start'] = 1
+        st.session_state['Proceed'] = 1
     ph = st.empty()
     #Key = ''
     #Start = 0
@@ -27,5 +27,7 @@ def app():
         if Save:
             st.empty()
     #Start = st.session_state['Start']
-    #Key = st.session_state['Key']
+    Proceed = st.session_state['Proceed']
+    return Proceed
+
     

@@ -3,7 +3,7 @@ def app():
     if 'Start' not in st.session_state:
         st.session_state['Start'] = 0
     if 'Key' not in st.session_state:
-        st.session_state['Key'] = ''
+        st.session_state['Key'] = 0
 
     def click():
         st.session_state['Start'] = 1
