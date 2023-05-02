@@ -13,9 +13,10 @@ import UserDetails as WP
 import Feedback as FB
 import ThankYouPage as Q
 
-
 # Importing Files
 # Imports
+if 'PersonalInfo' not in st.session_state:
+    st.session_state['PersonalInfo'] = 0
 
 
 def app(NotProceded):
@@ -80,7 +81,7 @@ def app(NotProceded):
     if Finish:
         VanishEndcol2.empty()
         Ans = st.session_state['Answers']
-        #st.write(Ans)
+        # st.write(Ans)
         return Ans
 
 
@@ -89,7 +90,7 @@ if __name__ == '__main__':
     Start = 0
     PersonalInfo = 0
     if Proceed:
-        (PersonalInfo, Start) = WP.app()
+        (st.session_state['PersonalInfo'], Start) = WP.app()
     # st.write(Key)
     # st.write(Email)
     Finish = 0
@@ -104,8 +105,6 @@ if __name__ == '__main__':
         feedback = FB.app()
     if feedback and PersonalInfo:
         st.write('Ready to append')
-        Flag = db.app(PersonalInfo, Ans, feedback)
+        Flag = db.app(st.session_state['PersonalInfo'], Ans, feedback)
     if Flag:
         Q.app()
-
-
