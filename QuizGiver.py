@@ -145,7 +145,7 @@ def app(QuizDoc, time_stamp):
             # st.empty()
             st.write()
             col1.write('--------------------------------------------------------------')
-            st.session_state['SelfAnalysis'] = f"Q{Index + 1}) => Ans: {st.session_state['Answer']}"
+            st.session_state['SelfAnalysis'] = f"Q{st.session_state['Index'] + 1}) => Ans: {st.session_state['Answer']}"
 
             st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
 
