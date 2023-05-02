@@ -59,6 +59,7 @@ def app():
     if Submit:
         st.success(Option)
         st.balloons()
+        return Option
     # st.write(Key)
     # st.write(Ans)
 
