@@ -1,4 +1,6 @@
 import streamlit as st
+
+
 def app():
     if 'Start' not in st.session_state:
         st.session_state['Start'] = 0
@@ -7,17 +9,18 @@ def app():
 
     def click():
         st.session_state['Start'] = 1
+
     ph = st.empty()
-    #Key = ''
-    #Start = 0
-    if st.session_state['Start'] == 0:    
-        #with ph.contianer():
+    # Key = ''
+    # Start = 0
+    if st.session_state['Start'] == 0:
+        # with ph.contianer():
         st.title('Welcome User')
         Name = st.text_input('Enter Your Name')
         Email = st.text_input('Enter Your Email Address')
         Gender = st.selectbox('Gender :', ['Male', 'Female', 'Others'])
         Age = st.text_input('Enter Your Age')
-        UPPeople = st.slider('Are you from Uttar Pradesh', ['Yes', 'No'])
+        UPPeople = st.slider('Are you from Uttar Pradesh', 0, 1, value=('Yes', 'No'))
         Address = st.text_input('Enter Your Address (Mention only District and State name): ')
         NOS = st.text_input('Name of your School/College/Institution/Organization:')
         NOB = st.text_input('Name of Your Board/University')
@@ -30,5 +33,4 @@ def app():
     Start = st.session_state['Start']
     Key = st.session_state['Key']
     PersonalInfo = [Key, Name, Email, Gender, Age, UPPeople, Address, NOS, NOB, EduQual, CartoIdea]
-    return(PersonalInfo, Start)
-    
+    return (PersonalInfo, Start)
