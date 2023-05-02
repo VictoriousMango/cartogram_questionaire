@@ -138,7 +138,7 @@ def app(QuizDoc, time_stamp):
     # Index = 0
 
     def Questions(Index):
-        if (st.session_state['Index'] + 1) % 2 == 0:
+        if (st.session_state['Index'] + 1) % 36 == 0:
             st.balloons()
         with st.empty():
             if st.session_state['Index'] < len(Ques):
