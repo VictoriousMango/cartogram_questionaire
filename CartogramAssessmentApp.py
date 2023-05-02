@@ -79,7 +79,7 @@ def app():
     if Finish:
         VanishEndcol2.empty()
 
-        return (Key, Ans, 1)
+        return (Key, Ans)
 
 
 if __name__ == '__main__':
@@ -92,11 +92,13 @@ if __name__ == '__main__':
     Finish = 0
     Ans = 0
     if Start:
-        (Key, Ans, Finish) = app()
-    if Finish:
-        Q.app(Key, Ans)
+        (Key, Ans) = app()
     if Ans:
         feedback = FB.app()
-    if Ans:
+    if feedback:
         print('Ready to append')
-        db.app(PersonalInfo, Start, feedback)
+        Flag = db.app(PersonalInfo, Start, feedback)
+    if Flag:
+        Q.app()
+
+
