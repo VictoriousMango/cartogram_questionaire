@@ -4,6 +4,7 @@ import numpy as np
 # from matplotlib.image import imread
 # import matplotlib.pyplot as plt
 import time
+import SectionBreaker as SB
 
 
 def timer(ts):
@@ -140,6 +141,7 @@ def app(QuizDoc, time_stamp):
     def Questions(Index):
         if (st.session_state['Index'] + 1) % 36 == 0:
             st.balloons()
+            SB.app(st.session_state['Index'] + 1//36)
         with st.empty():
             if st.session_state['Index'] < len(Ques):
                 # st.empty()
