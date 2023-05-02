@@ -141,9 +141,10 @@ def app(QuizDoc, time_stamp):
                 # st.empty()
                 st.write()
                 col1.write('--------------------------------------------------------------')
-                if Index%35 == 0:
+                if False:
                     st.balloons()
                 else:
+                    st.write(f"{Index} => Mod Value : {Index%35}, Division Value : {Index/35}, Integer Division Value : {Index//35}")
                     st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
                     img_src = f'{Index + 1}.png'
                     try:
