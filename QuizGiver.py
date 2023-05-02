@@ -143,10 +143,12 @@ def app(QuizDoc, time_stamp):
                 # st.empty()
                 st.write()
                 col1.write('--------------------------------------------------------------')
-                if False:
+                st.session_state[
+                    'SelfAnalysis'] = f"{Index} => Mod Value : {Index % 35}, Division Value : {Index / 35}, Integer Division Value : {Index // 35}"
+                if (Index + 1) % 35 == 0:
                     st.balloons()
                 else:
-                    st.session_state['SelfAnalysis'] = f"{Index} => Mod Value : {Index%35}, Division Value : {Index/35}, Integer Division Value : {Index//35}"
+
 
                     st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
 
