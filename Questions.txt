@@ -322,7 +322,9 @@ break
 
 Q36) You can take break now
 
-Z)
+A) Increased
+B) Decreased
+C) No Change
 
 break
 
