@@ -23,7 +23,7 @@ def app():
         st.session_state['time_stamp'] = 0
     if 'QuizDoc' not in st.session_state:
         st.session_state['QuizDoc'] = 0
-        # if 'Answers' not in st.session_state:
+    if 'Answers' not in st.session_state:
         st.session_state['Answers'] = 0
     # if 'Key' not in st.session_state:
     #   st.session_state['Key'] = 0
@@ -79,7 +79,7 @@ def app():
     if Finish:
         VanishEndcol2.empty()
         Ans = st.session_state['Answers']
-        st.write(Key, Ans)
+        st.write(Ans)
         return (Key, Ans)
 
 
@@ -93,7 +93,7 @@ if __name__ == '__main__':
     Finish = 0
     Ans = 0
     if Start:
-        (Key, Ans) = app()
+        Ans = app()
     if Ans:
         feedback = FB.app()
     if feedback:
