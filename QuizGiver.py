@@ -25,6 +25,8 @@ def app(QuizDoc, time_stamp):
         st.session_state['AnswerList'] = dict()
     if 'Index' not in st.session_state:
         st.session_state['Index'] = 0
+    if 'SelfAnalysis' not in st.session_state:
+        st.session_state['SelfAnalysis'] = 0
     # if st.session_state['Index'] == 7:
     # col3.empty()
     # Finish = col3.button('Finito')
@@ -144,7 +146,8 @@ def app(QuizDoc, time_stamp):
                 if False:
                     st.balloons()
                 else:
-                    st.write(f"{Index} => Mod Value : {Index%35}, Division Value : {Index/35}, Integer Division Value : {Index//35}")
+                    st.session_state['SelfAnalysis'] = f"{Index} => Mod Value : {Index%35}, Division Value : {Index/35}, Integer Division Value : {Index//35}"
+                    st.write(st.session_state['SelfAnalysis'])
                     st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
                     img_src = f'{Index + 1}.png'
                     try:
