@@ -17,7 +17,7 @@ import ThankYouPage as Q
 # Importing Files
 # Imports
 
-def app():
+def app(NotProceded):
     # Session States
     if 'time_stamp' not in st.session_state:
         st.session_state['time_stamp'] = 0
@@ -66,7 +66,7 @@ def app():
             Finish = VanishEndcol2.button(str, on_click=clicked)
             return Finish
 
-        if Index == NumberOfQuestions:
+        if Index == NumberOfQuestions and NotProceded:
             Finish = finish('Finish')
         else:
             Finish = False
@@ -95,7 +95,7 @@ if __name__ == '__main__':
     Flag = 0
     NotProceded = 1
     if Start and NotProceded:
-        Ans = app()
+        Ans = app(NotProceded)
     if Ans:
         NotProceded = 0
         feedback = FB.app()
