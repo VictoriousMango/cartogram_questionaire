@@ -102,7 +102,7 @@ if __name__ == '__main__':
         NotProceded = 0
         feedback = FB.app()
     if feedback and PersonalInfo:
-        print('Ready to append')
+        st.write('Ready to append')
         Flag = db.app(PersonalInfo, Start, feedback)
     if Flag:
         Q.app()
