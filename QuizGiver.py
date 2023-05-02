@@ -144,38 +144,35 @@ def app(QuizDoc, time_stamp):
             st.empty()
             SB.app(st.session_state['Index'] + 1//36)
 
-        else:
-            Quiz = st.container()
-            with Quiz:
-                if st.session_state['Index'] < len(Ques):
-                    # st.empty()
-                    st.write()
-                    col1.write('--------------------------------------------------------------')
-                    st.session_state['SelfAnalysis'] = f"{Index + 1} => Mod Value : {(Index + 1) % 35}, Division Value : {(Index + 1) / 35}, Integer Division Value : {(Index + 1) // 35}"
+        if st.session_state['Index'] < len(Ques):
+            # st.empty()
+            st.write()
+            col1.write('--------------------------------------------------------------')
+            st.session_state['SelfAnalysis'] = f"{Index + 1} => Mod Value : {(Index + 1) % 35}, Division Value : {(Index + 1) / 35}, Integer Division Value : {(Index + 1) // 35}"
 
-                    st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
+            st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
 
-                    img_src = f'{Index + 1}.png'
-                    try:
-                        img = Image.open(img_src)
-                        arr = np.array(img)
-                    except FileNotFoundError:
-                        img_src = f'{Index + 1}.jpg'
-                    try:
-                        img = Image.open(img_src)
-                        arr = np.array(img)
-                    except FileNotFoundError:
-                        pass
-                    # img = imread(img_src)\
-                col2.write('-----------------------------------------------------------')
-                try:
-                    col2.image(arr)
-                except:
-                    pass
-                # col2.write('-----------------------------------------------------------')
+            img_src = f'{Index + 1}.png'
+            try:
+                img = Image.open(img_src)
+                arr = np.array(img)
+            except FileNotFoundError:
+                img_src = f'{Index + 1}.jpg'
+            try:
+                img = Image.open(img_src)
+                arr = np.array(img)
+            except FileNotFoundError:
+                pass
+            # img = imread(img_src)\
+        col2.write('-----------------------------------------------------------')
+        try:
+            col2.image(arr)
+        except:
+            pass
+        # col2.write('-----------------------------------------------------------')
 
-                st.write('-----------------------------------------------------------')
-                st.write()
+        st.write('-----------------------------------------------------------')
+        st.write()
 
     if st.session_state['Index'] < len(Ques):
         Save = col3.button("Save for Q " + str(st.session_state['Index'] + 1))
