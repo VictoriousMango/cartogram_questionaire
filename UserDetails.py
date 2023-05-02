@@ -13,6 +13,7 @@ def app():
     ph = st.empty()
     # Key = ''
     # Start = 0
+    (Key, Name, Email, Gender, Age, UPPeople, Address, NOS, NOB, EduQual, CartoIdea) = (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
     if st.session_state['Start'] == 0:
         # with ph.contianer():
         st.title('Welcome User')
@@ -30,7 +31,7 @@ def app():
         Save = st.button('Save', on_click=click)
         if Save:
             st.empty()
-            Start = st.session_state['Start']
-            Key = st.session_state['Key']
-            PersonalInfo = [Key, Name, Email, Gender, Age, UPPeople, Address, NOS, NOB, EduQual, CartoIdea]
-            return (PersonalInfo, Start)
+    Start = st.session_state['Start']
+    Key = st.session_state['Key']
+    PersonalInfo = [Key, Name, Email, Gender, Age, UPPeople, Address, NOS, NOB, EduQual, CartoIdea]
+    return (PersonalInfo, Start)
