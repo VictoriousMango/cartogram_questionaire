@@ -95,6 +95,7 @@ def app(QuizDoc, time_stamp):
             if 'I)' in j:
                 I += j
             if 'Z)' in j:
+                switch = 0
                 I += 'Take Break'
             if switch:
                 Question += j
