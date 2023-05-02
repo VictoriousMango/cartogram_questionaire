@@ -91,6 +91,7 @@ if __name__ == '__main__':
     PersonalInfo = 0
     if Proceed:
         (PersonalInfo, Start) = WP.app()
+
     # st.write(Key)
     # st.write(Email)
     Finish = 0
@@ -99,6 +100,7 @@ if __name__ == '__main__':
     NotProceded = 1
     feedback = 0
     if Start and NotProceded:
+        st.write(PersonalInfo)
         Ans = app(NotProceded)
     if Ans:
         NotProceded = 0
