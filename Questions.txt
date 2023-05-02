@@ -275,6 +275,7 @@ break
 
 Q31) In which year highest number of the crimes happened in Bareilly?
 
+A) 2021
 B) 2020
 C) 2019
 D) 2018
