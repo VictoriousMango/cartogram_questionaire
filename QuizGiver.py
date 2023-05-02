@@ -143,7 +143,7 @@ def app(QuizDoc, time_stamp):
                 col1.write('--------------------------------------------------------------')
                 if 'Z)' in Questionaire[Ques[Index]]:
                     st.balloons()
-                st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
+
                 img_src = f'{Index + 1}.png'
                 try:
                     img = Image.open(img_src)
@@ -156,13 +156,14 @@ def app(QuizDoc, time_stamp):
                 except FileNotFoundError:
                     pass
                 # img = imread(img_src)\
+
                 col2.write('-----------------------------------------------------------')
                 try:
                     col2.image(arr)
                 except:
                     pass
                 # col2.write('-----------------------------------------------------------')
-                
+                st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
                 st.write('-----------------------------------------------------------')
                 st.write()
 
