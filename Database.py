@@ -30,7 +30,7 @@ def app(PersonalInfo, Ans, Feedback):
     def get_period(period):
         """If not found, the function will return None"""
         return db.get(period)
-
+    st.write(PersonalInfo)
     insert_ans(PersonalInfo, Ans, Feedback)
     st.success('Answers Saved Successful')
     return 1
