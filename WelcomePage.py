@@ -24,10 +24,10 @@ def app():
             unsafe_allow_html=True,
         )
 
-        st.markdown('Cartogram is a Thematic map of a set of features (countries, provinces, etc.), in which their geographic size is altered')
-        st.markdown('       to be directly proportional to a selected ratio-level variable, such as travel time, population, or GNP. ')
-        st.markdown('                                Your responses are appreciated. Feel free to answer without any stress.')
-        st.markdown('                                                   “You can take break in every section”')
+        st.markdown("<h6 style='text-align: center; color: grey;'>Cartogram is a Thematic map of a set of features (countries, provinces, etc.), in which their geographic size is altered</h6>", unsafe_allow_html=True)
+        st.markdown("<h6 style='text-align: center; color: grey;'>       to be directly proportional to a selected ratio-level variable, such as travel time, population, or GNP. </h6>", unsafe_allow_html=True)
+        st.markdown("<h6 style='text-align: center; color: grey;'>                                Your responses are appreciated. Feel free to answer without any stress.</h6>", unsafe_allow_html=True)
+        st.markdown("<h6 style='text-align: center; color: grey;'>                                                   You can take break in every section</h6>", unsafe_allow_html=True)
 
         Save = st.button('Proceed', on_click=click)
         if Save:

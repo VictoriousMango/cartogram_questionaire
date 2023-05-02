@@ -62,6 +62,9 @@ def app(QuizDoc, time_stamp):
         D = ''
         E = ''
         F = ''
+        G = ''
+        H = ''
+        I = ''
         for j in raw_text[i]:
             if 'A)' in j:
                 switch = 0
@@ -82,6 +85,16 @@ def app(QuizDoc, time_stamp):
             if 'F)' in j:
                 F += j
 
+            if 'G)' in j:
+                G += j
+
+            if 'H)' in j:
+                H += j
+
+            if 'I)' in j:
+                I += j
+            if 'Z)' in j:
+                st.balloons()
             if switch:
                 Question += j
         Questionaire[Question] = ['Select Options']
@@ -100,6 +113,12 @@ def app(QuizDoc, time_stamp):
             Questionaire[Question].append(E)
         if F != '':
             Questionaire[Question].append(F)
+        if G != '':
+            Questionaire[Question].append(G)
+        if H != '':
+            Questionaire[Question].append(H)
+        if I != '':
+            Questionaire[Question].append(I)
 
     count = 1
     Ques = []
@@ -119,12 +138,12 @@ def app(QuizDoc, time_stamp):
                 st.write()
                 col1.write('--------------------------------------------------------------')
                 st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
-                img_src = f'{Index + 1}.jpg'
+                img_src = f'{Index + 1}.png'
                 try:
                     img = Image.open(img_src)
                     arr = np.array(img)
                 except FileNotFoundError:
-                    img_src = f'{Index + 1}.png'
+                    img_src = f'{Index + 1}.jpg'
                 try:
                     img = Image.open(img_src)
                     arr = np.array(img)

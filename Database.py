@@ -7,7 +7,7 @@ from deta import Deta
 
 # Key : d0md8swdtzk_E7a3CqxYWfgL1E426fiH3gaBBSR2HgL6
 
-def app(Key, Ans):
+def app(Key, Ans, PersonalInfo):
 
     # Load the environment variables
     DETA_KEY = 'd0md8swdtzk_E7a3CqxYWfgL1E426fiH3gaBBSR2HgL6'
@@ -20,7 +20,7 @@ def app(Key, Ans):
 
     def insert_ans(Key, Ans):
         """Returns the report on a successful creation, otherwise raises an error"""
-        return db.put({"key": Key, "Answers": Ans})
+        return db.put({"key": Key, "Answers": Ans, 'Personal Info': PersonalInfo})
 
     def fetch_all_periods():
         """Returns a dict of all periods"""
