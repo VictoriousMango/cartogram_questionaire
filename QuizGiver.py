@@ -144,7 +144,8 @@ def app(QuizDoc, time_stamp):
             SB.app(st.session_state['Index'] + 1//36)
 
         else:
-            with st.empty():
+            Quiz = st.container()
+            with Quiz:
                 if st.session_state['Index'] < len(Ques):
                     # st.empty()
                     st.write()
