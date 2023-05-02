@@ -65,6 +65,7 @@ def app(QuizDoc, time_stamp):
         G = ''
         H = ''
         I = ''
+        Z = ''
         for j in raw_text[i]:
             if 'A)' in j:
                 switch = 0
@@ -94,7 +95,7 @@ def app(QuizDoc, time_stamp):
             if 'I)' in j:
                 I += j
             if 'Z)' in j:
-                st.balloons()
+                I += 'Take Break'
             if switch:
                 Question += j
         Questionaire[Question] = ['Select Options']
@@ -119,6 +120,8 @@ def app(QuizDoc, time_stamp):
             Questionaire[Question].append(H)
         if I != '':
             Questionaire[Question].append(I)
+        if Z != '':
+            st.balloons()
 
     count = 1
     Ques = []
@@ -137,6 +140,8 @@ def app(QuizDoc, time_stamp):
                 # st.empty()
                 st.write()
                 col1.write('--------------------------------------------------------------')
+                if 'Z)' in Questionaire[Ques[Index]]:
+                    st.balloons()
                 st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
                 img_src = f'{Index + 1}.png'
                 try:
