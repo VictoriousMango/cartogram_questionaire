@@ -20,7 +20,7 @@ def app():
         Email = st.text_input('Enter Your Email Address')
         Gender = st.selectbox('Gender :', ['Male', 'Female', 'Others'])
         Age = st.text_input('Enter Your Age')
-        UPPeople = st.slider('Are you from Uttar Pradesh', 0, 1)
+        UPPeople = st.slider('Are you from Uttar Pradesh', 0, 1, 0)
         Address = st.text_input('Enter Your Address (Mention only District and State name): ')
         NOS = st.text_input('Name of your School/College/Institution/Organization:')
         NOB = st.text_input('Name of Your Board/University')
