@@ -79,8 +79,8 @@ def app():
     if Finish:
         VanishEndcol2.empty()
         Ans = st.session_state['Answers']
-        st.write(Ans)
-        return (Key, Ans)
+        #st.write(Ans)
+        return Ans
 
 
 if __name__ == '__main__':
