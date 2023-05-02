@@ -176,7 +176,7 @@ def app(QuizDoc, time_stamp):
 
     if st.session_state['Index'] < len(Ques):
         Save = col3.button("Save for Q " + str(st.session_state['Index'] + 1))
-        st.write(st.session_state['SelfAnalysis'])
+        st.success(st.session_state['SelfAnalysis'])
         if Save:
             st.empty()
             st.session_state['AnswerList'][st.session_state['Index'] + 1] = [st.session_state['Answer'][0], time_stamp]
