@@ -32,7 +32,7 @@ def app(PersonalInfo, Ans, Feedback):
         return db.get(period)
     st.write('Hello')
     st.write(PersonalInfo, Ans, Feedback)
-    # insert_ans(PersonalInfo, Ans, Feedback)
+    insert_ans(PersonalInfo, Ans, Feedback)
     st.success('Answers Saved Successful')
     return 1
     '''
