@@ -30,7 +30,7 @@ def app():
         Save = st.button('Save', on_click=click)
         if Save:
             st.empty()
-    Start = st.session_state['Start']
-    Key = st.session_state['Key']
-    PersonalInfo = [Key, Name, Email, Gender, Age, UPPeople, Address, NOS, NOB, EduQual, CartoIdea]
-    return (PersonalInfo, Start)
+            Start = st.session_state['Start']
+            Key = st.session_state['Key']
+            PersonalInfo = [Key, Name, Email, Gender, Age, UPPeople, Address, NOS, NOB, EduQual, CartoIdea]
+            return (PersonalInfo, Start)
