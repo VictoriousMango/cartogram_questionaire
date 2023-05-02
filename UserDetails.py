@@ -29,6 +29,6 @@ def app():
             st.empty()
     Start = st.session_state['Start']
     Key = st.session_state['Key']
-    PersonalInfo = [Name, Email, Gender, Age, UPPeople, Address, NOS, NOB, EduQual, CartoIdea]
-    return(Key, Start, PersonalInfo)
+    PersonalInfo = [Key, Name, Email, Gender, Age, UPPeople, Address, NOS, NOB, EduQual, CartoIdea]
+    return(PersonalInfo, Start)
     

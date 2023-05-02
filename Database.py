@@ -7,7 +7,7 @@ from deta import Deta
 
 # Key : d0md8swdtzk_E7a3CqxYWfgL1E426fiH3gaBBSR2HgL6
 
-def app(Key, Ans, PersonalInfo):
+def app(PersonalInfo, Start):
 
     # Load the environment variables
     DETA_KEY = 'd0md8swdtzk_E7a3CqxYWfgL1E426fiH3gaBBSR2HgL6'
@@ -18,9 +18,9 @@ def app(Key, Ans, PersonalInfo):
     # This is how to create/connect a database
     db = deta.Base("CartogramANS")
 
-    def insert_ans(Key, Ans):
+    def insert_ans(PersonalInfo, Ans):
         """Returns the report on a successful creation, otherwise raises an error"""
-        return db.put({"key": Key, "Answers": Ans, 'Personal Info': PersonalInfo})
+        return db.put({"key": PersonalInfo[0], "Answers": Ans, 'Personal Info': PersonalInfo[1:]})
 
     def fetch_all_periods():
         """Returns a dict of all periods"""

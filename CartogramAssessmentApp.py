@@ -85,7 +85,7 @@ if __name__ == '__main__':
     Proceed = Intro.app()
     Start = 0
     if Proceed:
-        (Key, Start, PersonalInfo) = WP.app()
+        (PersonalInfo, Start) = WP.app()
     # st.write(Key)
     # st.write(Email)
     Finish = 0
@@ -96,4 +96,4 @@ if __name__ == '__main__':
         Q.app(Key, Ans)
     if Ans:
         print('Ready to append')
-        db.app(Key, Ans, PersonalInfo)
+        db.app(PersonalInfo, Start)
