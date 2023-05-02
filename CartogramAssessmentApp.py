@@ -92,6 +92,7 @@ if __name__ == '__main__':
     # st.write(Email)
     Finish = 0
     Ans = 0
+    Flag = 0
     if Start:
         Ans = app()
     if Ans:
