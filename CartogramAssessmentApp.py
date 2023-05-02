@@ -93,10 +93,11 @@ if __name__ == '__main__':
     Finish = 0
     Ans = 0
     Flag = 0
-    if Start:
+    NotProceded = 1
+    if Start and NotProceded:
         Ans = app()
     if Ans:
-        Start = 0
+        NotProceded = 0
         feedback = FB.app()
     if feedback:
         print('Ready to append')
