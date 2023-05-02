@@ -147,8 +147,9 @@ def app(QuizDoc, time_stamp):
                     st.balloons()
                 else:
                     st.session_state['SelfAnalysis'] = f"{Index} => Mod Value : {Index%35}, Division Value : {Index/35}, Integer Division Value : {Index//35}"
-                    st.write(st.session_state['SelfAnalysis'])
+
                     st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
+
                     img_src = f'{Index + 1}.png'
                     try:
                         img = Image.open(img_src)
@@ -173,6 +174,7 @@ def app(QuizDoc, time_stamp):
 
     if st.session_state['Index'] < len(Ques):
         Save = col3.button("Save for Q " + str(st.session_state['Index'] + 1))
+        st.write(st.session_state['SelfAnalysis'])
         if Save:
             st.empty()
             st.session_state['AnswerList'][st.session_state['Index'] + 1] = [st.session_state['Answer'][0], time_stamp]
