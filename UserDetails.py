@@ -48,7 +48,7 @@ def app():
             st.session_state['NOB'] = st.text_input('Name of Your Board/University')
             st.session_state['EduQual'] = st.selectbox('Your Highest Qualification: ', ['School', 'Graduation', 'Post-Graduation', 'Doctorate'])
             st.session_state['CartoIdea'] = st.selectbox('Do you have any idea about Cartogram mapping?', ['Yes', 'No'])
-            st.session_state['Key'] = Name + Email
+            st.session_state['Key'] = st.session_state['Name'] + st.session_state['Email']
             Save = st.button('Save', on_click=click)
             if Save:
                 st.empty()
