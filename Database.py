@@ -7,7 +7,7 @@ from deta import Deta
 
 # Key : d0md8swdtzk_E7a3CqxYWfgL1E426fiH3gaBBSR2HgL6
 
-def app(PersonalInfo, Start, Feedback):
+def app(PersonalInfo, Ans, Feedback):
 
     # Load the environment variables
     DETA_KEY = 'd0md8swdtzk_E7a3CqxYWfgL1E426fiH3gaBBSR2HgL6'
@@ -31,7 +31,7 @@ def app(PersonalInfo, Start, Feedback):
         """If not found, the function will return None"""
         return db.get(period)
 
-    insert_ans(Key, Ans)
+    insert_ans(PersonalInfo, Ans, Feedback)
     st.success('Answers Saved Successful')
     return 1
     '''
