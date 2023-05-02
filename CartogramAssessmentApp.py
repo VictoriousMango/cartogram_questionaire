@@ -86,6 +86,7 @@ def app(NotProceded):
 if __name__ == '__main__':
     Proceed = Intro.app()
     Start = 0
+    PersonalInfo = 0
     if Proceed:
         (PersonalInfo, Start) = WP.app()
     # st.write(Key)
@@ -94,12 +95,13 @@ if __name__ == '__main__':
     Ans = 0
     Flag = 0
     NotProceded = 1
+    feedback = 0
     if Start and NotProceded:
         Ans = app(NotProceded)
     if Ans:
         NotProceded = 0
         feedback = FB.app()
-    if feedback:
+    if feedback and PersonalInfo:
         print('Ready to append')
         Flag = db.app(PersonalInfo, Start, feedback)
     if Flag:
