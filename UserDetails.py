@@ -19,18 +19,18 @@ def app():
         with ShowContainer:
             # with ph.contianer():
             st.title('Welcome User')
-            Name = ph.text_input('Enter Your Name')
-            Email = ph.text_input('Enter Your Email Address')
-            Gender = ph.selectbox('Gender :', ['Male', 'Female', 'Others'])
-            Age = ph.text_input('Enter Your Age')
-            UPPeople = ph.selectbox('Are you from Uttar Pradesh', ['Yes', 'No'])
-            Address = ph.text_input('Enter Your Address (Mention only District and State name): ')
-            NOS = ph.text_input('Name of your School/College/Institution/Organization:')
-            NOB = ph.text_input('Name of Your Board/University')
-            EduQual = ph.selectbox('Your Highest Qualification: ', ['School', 'Graduation', 'Post-Graduation', 'Doctorate'])
-            CartoIdea = ph.selectbox('Do you have any idea about Cartogram mapping?', ['Yes', 'No'])
+            Name = st.text_input('Enter Your Name')
+            Email = st.text_input('Enter Your Email Address')
+            Gender = st.selectbox('Gender :', ['Male', 'Female', 'Others'])
+            Age = st.text_input('Enter Your Age')
+            UPPeople = st.selectbox('Are you from Uttar Pradesh', ['Yes', 'No'])
+            Address = st.text_input('Enter Your Address (Mention only District and State name): ')
+            NOS = st.text_input('Name of your School/College/Institution/Organization:')
+            NOB = st.text_input('Name of Your Board/University')
+            EduQual = st.selectbox('Your Highest Qualification: ', ['School', 'Graduation', 'Post-Graduation', 'Doctorate'])
+            CartoIdea = st.selectbox('Do you have any idea about Cartogram mapping?', ['Yes', 'No'])
             st.session_state['Key'] = Name + Email
-            Save = ph.button('Save', on_click=click)
+            Save = st.button('Save', on_click=click)
             if Save:
                 st.empty()
     Start = st.session_state['Start']
