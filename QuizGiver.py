@@ -177,7 +177,7 @@ def app(QuizDoc, time_stamp):
         if Save:
             st.empty()
             st.session_state['AnswerList'][st.session_state['Index'] + 1] = [st.session_state['Answer'][0], time_stamp]
-            st.success(f"Q{[st.session_state['Index'] + 1]}) : {st.session_state['AnswerList'][st.session_state['Index'] + 1][0]}")
+            st.success(f"Q{[st.session_state['Index'] + 1]}) : {st.session_state['AnswerList'][st.session_state['Index'] + 1][0][0]}")
             # st.write(st.session_state['Answer'])
 
 
