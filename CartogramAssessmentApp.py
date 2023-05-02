@@ -78,7 +78,7 @@ def app():
         st.session_state['time_stamp'] += 1
     if Finish:
         VanishEndcol2.empty()
-
+        Ans = st.session_state['Answers']
         return (Key, Ans)
 
 
