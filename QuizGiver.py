@@ -145,7 +145,7 @@ def app(QuizDoc, time_stamp):
                 col1.write('--------------------------------------------------------------')
                 st.session_state[
                     'SelfAnalysis'] = f"{Index} => Mod Value : {Index % 35}, Division Value : {Index / 35}, Integer Division Value : {Index // 35}"
-                if (Index + 1) % 35 == 0:
+                if (Index + 1) % 36 == 0:
                     st.balloons()
                 else:
 
