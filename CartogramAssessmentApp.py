@@ -79,6 +79,7 @@ def app():
     if Finish:
         VanishEndcol2.empty()
         Ans = st.session_state['Answers']
+        st.write(Key, Ans)
         return (Key, Ans)
 
 
