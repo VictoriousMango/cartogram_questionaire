@@ -8,7 +8,7 @@ import QuizGiver as QG
 # Importing Files
 # Imports
 
-def app(Key, Ans):
+def app():
     st.header('Thank You For Your Patience')
     #st.write(Key)
     #st.write(Ans)
@@ -17,3 +17,7 @@ def app(Key, Ans):
     #    outfile.write(db)
         #json.dump(db, outfile, indent = 4)
     #st.write(Ans)
+
+
+if __name__ == '__main__':
+    app()

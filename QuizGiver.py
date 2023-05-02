@@ -96,7 +96,7 @@ def app(QuizDoc, time_stamp):
                 I += j
             if 'Z)' in j:
                 switch = 0
-                I += 'Take Break'
+                Z += 'Take Break' + j
             if switch:
                 Question += j
         Questionaire[Question] = ['Select Options']
@@ -122,7 +122,7 @@ def app(QuizDoc, time_stamp):
         if I != '':
             Questionaire[Question].append(I)
         if Z != '':
-            st.balloons()
+            Questionaire[Question].append(Z)
 
     count = 1
     Ques = []
@@ -141,21 +141,22 @@ def app(QuizDoc, time_stamp):
                 # st.empty()
                 st.write()
                 col1.write('--------------------------------------------------------------')
-                if 'Z)' in Questionaire[Ques[Index]]:
+                if Index%35 == 0:
                     st.balloons()
-                st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
-                img_src = f'{Index + 1}.png'
-                try:
-                    img = Image.open(img_src)
-                    arr = np.array(img)
-                except FileNotFoundError:
-                    img_src = f'{Index + 1}.jpg'
-                try:
-                    img = Image.open(img_src)
-                    arr = np.array(img)
-                except FileNotFoundError:
-                    pass
-                # img = imread(img_src)\
+                else:
+                    st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
+                    img_src = f'{Index + 1}.png'
+                    try:
+                        img = Image.open(img_src)
+                        arr = np.array(img)
+                    except FileNotFoundError:
+                        img_src = f'{Index + 1}.jpg'
+                    try:
+                        img = Image.open(img_src)
+                        arr = np.array(img)
+                    except FileNotFoundError:
+                        pass
+                    # img = imread(img_src)\
                 col2.write('-----------------------------------------------------------')
                 try:
                     col2.image(arr)

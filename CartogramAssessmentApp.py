@@ -10,6 +10,7 @@ import Database as db
 import QuizGiver as QG
 import WelcomePage as Intro
 import UserDetails as WP
+import Feedback as FB
 import ThankYouPage as Q
 
 
@@ -95,5 +96,7 @@ if __name__ == '__main__':
     if Finish:
         Q.app(Key, Ans)
     if Ans:
+        feedback = FB.app()
+    if Ans:
         print('Ready to append')
-        db.app(PersonalInfo, Start)
+        db.app(PersonalInfo, Start, feedback)
