@@ -96,6 +96,7 @@ if __name__ == '__main__':
     if Start:
         Ans = app()
     if Ans:
+        Start = 0
         feedback = FB.app()
     if feedback:
         print('Ready to append')
