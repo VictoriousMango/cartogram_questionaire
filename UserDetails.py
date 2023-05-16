@@ -71,9 +71,10 @@ def app():
                 st.success('Procced to Assessment')
             else:
                 st.error('All Fields and not Filled')
-            if Save and Filled:
+            if Save:
                 st.empty()
-                st.session_state['Start'] = 1
+                if Filled:
+                    st.session_state['Start'] = 1
     Start = st.session_state['Start']
     Key = st.session_state['Key']
     PersonalInfo = [
