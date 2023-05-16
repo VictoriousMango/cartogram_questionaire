@@ -55,9 +55,10 @@ def app(NotProceded):
         def Quizzer():
             (Ans, Index, NumberOfQuestions) = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp'])
             return Ans, Index, NumberOfQuestions
-
-        (Ans, Index, NumberOfQuestions) = Quizzer()
-        st.session_state['Answers'] = Ans
+        Start = st.button('Start')
+        if Start:
+            (Ans, Index, NumberOfQuestions) = Quizzer()
+            st.session_state['Answers'] = Ans
         # Columns Part 2
         Endcol1, Endcol2 = st.columns([6, 4])
         VanishEndcol2 = Endcol2.empty()
@@ -102,17 +103,8 @@ if __name__ == '__main__':
     if Start and NotProceded:
         st.empty()
         #st.write(st.session_state['PersonalInfo'])
-        if 'Start' not in st.session_state:
-            st.session_state['Start'] = 0
-        def Start():
-            st.session_state['Start'] = 1
+        Ans = app(NotProceded)
 
-        if st.session_state['Start'] == 0:
-            ph = st.container
-            if ph:
-                start = st.button('Start Assessment', on_click=Start)
-        if st.session_state['Start']:
-            Ans = app(NotProceded)
     if Ans:
         NotProceded = 0
         feedback = FB.app()
