@@ -97,4 +97,4 @@ def app():
         Filled = Filled and i
     if Filled and st.session_state['Start']:
         st.session_state['Filled'] = 1
-    return (PersonalInfo, Start and st.session_state['Filled'])
+    return (PersonalInfo, Start)

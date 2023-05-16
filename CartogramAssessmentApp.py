@@ -17,6 +17,8 @@ import ThankYouPage as Q
 # Imports
 if 'PersonalInfo' not in st.session_state:
     st.session_state['PersonalInfo'] = 0
+if 'Start' not in st.session_state:
+    st.session_state['Start'] = 0
 
 
 def app(NotProceded):
@@ -27,8 +29,7 @@ def app(NotProceded):
         st.session_state['QuizDoc'] = 0
     if 'Answers' not in st.session_state:
         st.session_state['Answers'] = 0
-    if 'Start' not in st.session_state:
-        st.session_state['Start'] = 0
+
 
     # if 'Key' not in st.session_state:
     #   st.session_state['Key'] = 0
@@ -105,8 +106,11 @@ if __name__ == '__main__':
     Flag = 0
     NotProceded = 1
     feedback = 0
+
+    NotProceded = st.button('Start')
     if Start and NotProceded:
         st.empty()
+
         #st.write(st.session_state['PersonalInfo'])
         Ans = app(NotProceded)
 
