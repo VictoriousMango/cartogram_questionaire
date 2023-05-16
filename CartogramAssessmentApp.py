@@ -100,7 +100,7 @@ if __name__ == '__main__':
     NotProceded = 1
     feedback = 0
     if Start and NotProceded:
-        st.write(st.session_state['PersonalInfo'])
+        #st.write(st.session_state['PersonalInfo'])
         Ans = app(NotProceded)
     if Ans:
         NotProceded = 0
