@@ -95,6 +95,6 @@ def app():
     Filled = 1
     for i in PersonalInfo:
         Filled = Filled and i
-    if Filled:
+    if Filled and st.session_state['Start']:
         st.session_state['Filled'] = 1
     return (PersonalInfo, Start)
