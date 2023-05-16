@@ -56,9 +56,9 @@ def app(NotProceded):
             (Ans, Index, NumberOfQuestions) = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp'])
             return Ans, Index, NumberOfQuestions
         Start = st.button('Start')
-        if Start:
-            (Ans, Index, NumberOfQuestions) = Quizzer()
-            st.session_state['Answers'] = Ans
+        #if Start:
+        (Ans, Index, NumberOfQuestions) = Quizzer()
+        st.session_state['Answers'] = Ans
         # Columns Part 2
         Endcol1, Endcol2 = st.columns([6, 4])
         VanishEndcol2 = Endcol2.empty()
