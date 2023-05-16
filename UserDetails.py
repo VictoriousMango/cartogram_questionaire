@@ -50,6 +50,27 @@ def app():
             st.session_state['CartoIdea'] = st.selectbox('Do you have any idea about Cartogram mapping?', ['Yes', 'No'])
             st.session_state['Key'] = st.session_state['Name'] + st.session_state['Email']
             Save = st.button('Save', on_click=click)
+            PersonalInfo = [
+                st.session_state['Key'],
+                st.session_state['Name'],
+                st.session_state['Email'],
+                st.session_state['Gender'],
+                st.session_state['Age'],
+                st.session_state['UPPeople'],
+                st.session_state['Address'],
+                st.session_state['NOS'],
+                st.session_state['NOB'],
+                st.session_state['EduQual'],
+                st.session_state['CartoIdea']
+            ]
+            Filled = 1
+            for i in PersonalInfo:
+                Filled = Filled and i
+
+            if Filled:
+                st.success('Procced to Assessment')
+            else:
+                st.error('All Fields and not Filled')
             if Save:
                 st.empty()
     Start = st.session_state['Start']
@@ -67,4 +88,12 @@ def app():
         st.session_state['EduQual'],
         st.session_state['CartoIdea']
     ]
+    Filled = 1
+    for i in PersonalInfo:
+        Filled = Filled and i
+
+    if Filled:
+        st.success('Procced to Assessment')
+    else:
+        st.error('All Fields and not Filled')
     return (PersonalInfo, Start)
