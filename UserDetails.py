@@ -26,8 +26,11 @@ def app():
         st.session_state['EduQual'] = 0
     if 'CartoIdea' not in st.session_state:
         st.session_state['CartoIdea'] = 0
+    if 'Filled' not in st.session_state:
+        st.session_state['Filled'] = 0
     def click():
-        st.session_state['Start'] = 1
+        if st.session_state['Filled']:
+            st.session_state['Start'] = 1
 
     ph = st.empty()
     # Key = ''
@@ -74,6 +77,7 @@ def app():
             if Save:
                 st.empty()
                 if Filled:
+                    st.session_state['Filled'] = 1
                     st.session_state['Start'] = 1
     Start = st.session_state['Start']
     Key = st.session_state['Key']
