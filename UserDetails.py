@@ -29,14 +29,13 @@ def app():
     if 'Filled' not in st.session_state:
         st.session_state['Filled'] = 0
     def click():
-        if st.session_state['Filled']:
-            st.session_state['Start'] = 1
+        st.session_state['Start'] = 1
 
     ph = st.empty()
     # Key = ''
     # Start = 0
     # (Key, Name, Email, Gender, Age, UPPeople, Address, NOS, NOB, EduQual, CartoIdea) = (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
-    if st.session_state['Start'] == 0:
+    if st.session_state['Start'] == 0 and st.session_state['Filled'] == 0:
         ShowContainer = st.container()
         with ShowContainer:
             # with ph.contianer():
@@ -77,7 +76,6 @@ def app():
             if Save:
                 st.empty()
                 if Filled:
-                    st.session_state['Filled'] = 1
                     st.session_state['Start'] = 1
     Start = st.session_state['Start']
     Key = st.session_state['Key']
@@ -94,4 +92,9 @@ def app():
         st.session_state['EduQual'],
         st.session_state['CartoIdea']
     ]
+    Filled = 1
+    for i in PersonalInfo:
+        Filled = Filled and i
+    if Filled:
+        st.session_state['Filled'] = 1
     return (PersonalInfo, Start)
