@@ -104,13 +104,12 @@ if __name__ == '__main__':
     Finish = 0
     Ans = 0
     Flag = 0
-    NotProceded = 1
     feedback = 0
 
-    NotProceded = st.button('Start')
-    if Start and NotProceded:
-        st.empty()
 
+    if Start:
+        st.empty()
+        NotProceded = st.button('Start Assessment')
         #st.write(st.session_state['PersonalInfo'])
         Ans = app(NotProceded)
 
