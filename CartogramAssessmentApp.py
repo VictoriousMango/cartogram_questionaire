@@ -27,6 +27,9 @@ def app(NotProceded):
         st.session_state['QuizDoc'] = 0
     if 'Answers' not in st.session_state:
         st.session_state['Answers'] = 0
+    if 'Start' not in st.session_state:
+        st.session_state['Start'] = 0
+
     # if 'Key' not in st.session_state:
     #   st.session_state['Key'] = 0
     # st.session_state['Key'] = Key
@@ -52,11 +55,13 @@ def app(NotProceded):
     # Title Bar
 
     if st.session_state['QuizDoc']:
+        def start():
+            st.seesion_state['Start'] == 1
         def Quizzer():
             (Ans, Index, NumberOfQuestions) = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp'])
             return Ans, Index, NumberOfQuestions
-        Start = st.button('Start')
-        if Start:
+        Start = st.button('Start', on_click=start)
+        if st.seesion_state['Start']:
             (Ans, Index, NumberOfQuestions) = Quizzer()
         st.session_state['Answers'] = Ans
         # Columns Part 2
