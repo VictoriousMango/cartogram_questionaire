@@ -108,7 +108,7 @@ if __name__ == '__main__':
 
     if Start:
         st.empty()
-        NotProceded = st.button('Start Assessment')
+        NotProceded = st.button('Show Assessment')
         if NotProceded:
         #st.write(st.session_state['PersonalInfo'])
             Ans = app(NotProceded)
