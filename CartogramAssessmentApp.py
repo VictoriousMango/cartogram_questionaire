@@ -56,12 +56,12 @@ def app(NotProceded):
 
     if st.session_state['QuizDoc']:
         def start():
-            st.seesion_state['Start'] == 1
+            st.session_state['Start'] == 1
         def Quizzer():
             (Ans, Index, NumberOfQuestions) = QG.app(st.session_state['QuizDoc'], st.session_state['time_stamp'])
             return Ans, Index, NumberOfQuestions
         Start = st.button('Start', on_click=start)
-        if st.seesion_state['Start']:
+        if st.session_state['Start']:
             (Ans, Index, NumberOfQuestions) = Quizzer()
         st.session_state['Answers'] = Ans
         # Columns Part 2
