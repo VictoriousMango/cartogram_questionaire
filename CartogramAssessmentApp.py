@@ -102,7 +102,17 @@ if __name__ == '__main__':
     if Start and NotProceded:
         st.empty()
         #st.write(st.session_state['PersonalInfo'])
-        Ans = app(NotProceded)
+        if 'Start' not in st.session_state:
+            st.session_state['Start'] = 0
+        def Start():
+            st.session_state['Start'] = 1
+
+        if st.session_state['Start'] == 0:
+            ph = st.container
+            if ph:
+                start = st.button('Start Assessment', on_click=Start)
+        if st.session_state['Start']:
+            Ans = app(NotProceded)
     if Ans:
         NotProceded = 0
         feedback = FB.app()

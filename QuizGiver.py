@@ -28,8 +28,7 @@ def app(QuizDoc, time_stamp):
         st.session_state['Index'] = 0
     if 'SelfAnalysis' not in st.session_state:
         st.session_state['SelfAnalysis'] = 0
-    if 'Start' not in st.session_state:
-        st.session_state['Start'] = 0
+
 
 
 
@@ -145,12 +144,6 @@ def app(QuizDoc, time_stamp):
     # Index = 0
 
     def Questions(Index):
-        def start():
-            st.session_state['Start'] = 1
-
-        if st.session_state['Start'] == 0:
-            Start = st.button('Start', on_click=start)
-        if st.session_state['Start']:
             SB.app((st.session_state['Index'] + 1)//36, (st.session_state['Index'] + 1) % 36 == 0)
 
             if st.session_state['Index'] < len(Ques):
@@ -197,8 +190,8 @@ def app(QuizDoc, time_stamp):
                 st.session_state['Index'] += 1
         # Questions(st.session_state['Index'])
     # Finish = st.button('Finish Button Part 2')
-    if st.session_state['Start']:
-        Questions(st.session_state['Index'])
+
+    Questions(st.session_state['Index'])
 
     # timer(ts)
 
