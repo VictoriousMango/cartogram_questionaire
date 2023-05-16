@@ -28,6 +28,14 @@ def app(QuizDoc, time_stamp):
         st.session_state['Index'] = 0
     if 'SelfAnalysis' not in st.session_state:
         st.session_state['SelfAnalysis'] = 0
+    if 'Start' not in st.session_state:
+        st.session_state['Start'] = 0
+
+    def start():
+        st.session_state['Start'] = 1
+
+    if st.session_state['Start'] == 0:
+        st.button('Start', on_click=start)
     # if st.session_state['Index'] == 7:
     # col3.empty()
     # Finish = col3.button('Finito')
@@ -185,7 +193,8 @@ def app(QuizDoc, time_stamp):
                 st.session_state['Index'] += 1
         # Questions(st.session_state['Index'])
     # Finish = st.button('Finish Button Part 2')
-    Questions(st.session_state['Index'])
+    if st.session_state['Start']:
+        Questions(st.session_state['Index'])
 
     # timer(ts)
 
