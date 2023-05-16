@@ -35,7 +35,9 @@ def app(QuizDoc, time_stamp):
         st.session_state['Start'] = 1
 
     if st.session_state['Start'] == 0:
-        st.button('Start', on_click=start)
+        Start = st.button('Start', on_click=start)
+
+
     # if st.session_state['Index'] == 7:
     # col3.empty()
     # Finish = col3.button('Finito')
