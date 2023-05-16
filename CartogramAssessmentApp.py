@@ -108,8 +108,13 @@ if __name__ == '__main__':
 
     if Start:
         st.empty()
-        NotProceded = st.button('Show Assessment')
+        col1, col2 = st.columns([1, 1])
+        NotProceded = col1.button('Show Assessment')
+        Vanish = col2.button('Hide Assessment')
+        if Vanish:
+            NotProceded = 0
         if NotProceded:
+            Vanish = 0
         #st.write(st.session_state['PersonalInfo'])
             Ans = app(NotProceded)
 
