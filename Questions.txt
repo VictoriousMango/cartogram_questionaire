@@ -47,7 +47,7 @@ Q6) Identify the name of the highlighted district from the given map (2021):
 
 A) Baghpat
 B) Sonbhadra
-C) Shamli*
+C) Shamli
 D) Saharanpur
 
 break
@@ -56,7 +56,7 @@ Q7) Identify the name of the highlighted district from the given map (2020):
 
 A) Chandauli
 B) Mirzapur
-C) Sonbhadra*
+C) Sonbhadra
 D) Gazipur
 
 break
@@ -66,14 +66,14 @@ Q8) Identify the name of the highlighted district from the given map (2019):
 A) Hardoi
 B) Auraiya
 C) Manipuri
-D) Kannauj*
+D) Kannauj
 
 break
 
 Q9) Identify the name of the highlighted district from the given map (2018):
 
 A) Etah
-B) Farrukhabad*
+B) Farrukhabad
 C) Manipuri
 D) Hardoi
 
@@ -81,7 +81,7 @@ break
 
 Q10) Identify the name of the highlighted district from the given map (2017):
 
-A) Faizabad*
+A) Faizabad
 B) Ambedkar Nagar
 C) Barabanki
 D) Amethi
@@ -125,10 +125,10 @@ break
 
 Q16) Find the district with the highest and lowest crime rate (2021):
 
-A) A - Highest*
+A) A - Highest
 B) A- Lowest
 c) B- Highest
-D) B- Lowest*
+D) B- Lowest
 E) C- Highest
 F) C- Lowest
 G) D- Highest
@@ -140,8 +140,8 @@ Q17) Find the district with the highest and lowest crime rate (2020):
 
 A) A - Highest
 B) A- Lowest
-c) B- Highest*
-D) B- Lowest*
+c) B- Highest
+D) B- Lowest
 E) C- Highest
 F) C- Lowest
 G) D- Highest
@@ -230,7 +230,7 @@ break
 
 Q26) Which District is the neighbor of the highlighted district? (lalitpur) 2021
 
-A) Jhansi*
+A) Jhansi
 B) Mahoba
 C) Jalaun
 D) Hamirpur
@@ -240,7 +240,7 @@ break
 Q27) Which District is the neighbor of the highlighted district? (Bulandshahr) 2020
 
 A) Hatras
-B) Hapur*
+B) Hapur
 C) Moradabad
 D) Mathura
 
@@ -248,7 +248,7 @@ break
 
 Q28) Which District is the neighbor of the highlighted district? (Lucknow) 2019
 
-A) Unnao*
+A) Unnao
 B) Lakhimpur Kheri
 C) Amethi
 D) Fatehpur
@@ -260,13 +260,13 @@ Q29) Which District is the neighbor of the highlighted district? (Mau) 2018
 A) Gonda
 B) Jaunpur
 C) Chandauli
-D) Azamgarh*
+D) Azamgarh
 
 break
 
 Q30) Which District is the neighbor of the highlighted district? (Kaushambi) 2017
 
-A) Fatehpur*
+A) Fatehpur
 B) Sultanpur
 C) Banda
 D) Amethi
@@ -378,7 +378,7 @@ Q42) Identify the name of the highlighted district from the given map (2021):
 
 A) Baghpat
 B) Sonbhadra
-C) Shamli*
+C) Shamli
 D) Saharanpur
 
 break
@@ -387,7 +387,7 @@ Q43) Identify the name of the highlighted district from the given map (2020):
 
 A) Chandauli
 B) Mirzapur
-C) Sonbhadra*
+C) Sonbhadra
 D) Gazipur
 
 break
@@ -397,14 +397,14 @@ Q44) Identify the name of the highlighted district from the given map (2019):
 A) Hardoi
 B) Auraiya
 C) Manipuri
-D) Kannauj*
+D) Kannauj
 
 break
 
 Q45) Identify the name of the highlighted district from the given map (2018):
 
 A) Etah
-B) Farrukhabad*
+B) Farrukhabad
 C) Manipuri
 D) Hardoi
 
@@ -412,7 +412,7 @@ break
 
 Q46) Identify the name of the highlighted district from the given map (2017):
 
-A) Faizabad*
+A) Faizabad
 B) Ambedkar Nagar
 C) Barabanki
 D) Amethi
@@ -456,10 +456,10 @@ break
 
 Q52) Find the district with the highest and lowest crime rate (2021):
 
-A - Highest*
+A - Highest
 A- Lowest
 B- Highest
-B- Lowest*
+B- Lowest
 C - Highest
 C- Lowest
 D- Highest
@@ -471,8 +471,8 @@ Q53) Find the district with the highest and lowest crime rate (2020):
 
 A - Highest
 A- Lowest
-B- Highest*
-B- Lowest*
+B- Highest
+B- Lowest
 C - Highest
 C- Lowest
 D- Highest
@@ -560,7 +560,7 @@ break
 
 Q62) Which District is the neighbor of the highlighted district? (lalitpur) 2021
 
-A) Jhansi*
+A) Jhansi
 B) Mahoba
 C) Jalaun
 D) Hamirpur
@@ -570,7 +570,7 @@ break
 Q63) Which District is the neighbor of the highlighted district? (Bulandshahr) 2020
 
 A) Hatras
-B) Hapur*
+B) Hapur
 C) Moradabad
 D) Mathura
 
@@ -578,7 +578,7 @@ break
 
 Q64) Which District is the neighbor of the highlighted district? (Lucknow) 2019
 
-A) Unnao*
+A) Unnao
 B) Lakhimpur Kheri
 C) Amethi
 D) Fatehpur
@@ -590,13 +590,13 @@ Q65) Which District is the neighbor of the highlighted district? (Mau) 2018
 A) Gonda
 B) Jaunpur
 C) Chandauli
-D) Azamgarh*
+D) Azamgarh
 
 break
 
 Q66) Which District is the neighbor of the highlighted district? (Kaushambi) 2017
 
-A) Fatehpur*
+A) Fatehpur
 B) Sultanpur
 C) Banda
 D) Amethi
@@ -705,7 +705,7 @@ Q78) Identify the name of the highlighted district from the given map (2021):
 
 A) Baghpat
 B) Sonbhadra
-C) Shamli*
+C) Shamli
 D) Saharanpur
 
 break
@@ -714,7 +714,7 @@ Q79) Identify the name of the highlighted district from the given map (2020):
 
 A) Chandauli
 B) Mirzapur
-C) Sonbhadra*
+C) Sonbhadra
 D) Gazipur
 
 break
@@ -724,14 +724,14 @@ Q80) Identify the name of the highlighted district from the given map (2019):
 A) Hardoi
 B) Auraiya
 C) Manipuri
-D) Kannauj*
+D) Kannauj
 
 break
 
 Q81) Identify the name of the highlighted district from the given map (2018):
 
 A) Etah
-B) Farrukhabad*
+B) Farrukhabad
 C) Manipuri
 D) Hardoi
 
@@ -739,7 +739,7 @@ break
 
 Q82) Identify the name of the highlighted district from the given map (2017):
 
-A) Faizabad*
+A) Faizabad
 B) Ambedkar Nagar
 C) Barabanki
 D) Amethi
@@ -783,10 +783,10 @@ break
 
 Q88) Find the district with the highest and lowest crime rate (2021):
 
-A - Highest*
+A - Highest
 A- Lowest
 B- Highest
-B- Lowest*
+B- Lowest
 C - Highest
 C- Lowest
 D- Highest
@@ -798,8 +798,8 @@ Q89) Find the district with the highest and lowest crime rate (2020):
 
 A - Highest
 A- Lowest
-B- Highest*
-B- Lowest*
+B- Highest
+B- Lowest
 C - Highest
 C- Lowest
 D- Highest
@@ -887,7 +887,7 @@ break
 
 Q98) Which District is the neighbor of the highlighted district? (lalitpur) 2021
 
-A) Jhansi*
+A) Jhansi
 B) Mahoba
 C) Jalaun
 D) Hamirpur
@@ -897,7 +897,7 @@ break
 Q99) Which District is the neighbor of the highlighted district? (Bulandshahr) 2020
 
 A) Hatras
-B) Hapur*
+B) Hapur
 C) Moradabad
 D) Mathura
 
@@ -905,7 +905,7 @@ break
 
 Q100) Which District is the neighbor of the highlighted district? (Lucknow) 2019
 
-A) Unnao*
+A) Unnao
 B) Lakhimpur Kheri
 C) Amethi
 D) Fatehpur
@@ -917,13 +917,13 @@ Q101) Which District is the neighbor of the highlighted district? (Mau) 2018
 A) Gonda
 B) Jaunpur
 C) Chandauli
-D) Azamgarh*
+D) Azamgarh
 
 break
 
 Q102) Which District is the neighbor of the highlighted district? (Kaushambi) 2017
 
-A) Fatehpur*
+A) Fatehpur
 B) Sultanpur
 C) Banda
 D) Amethi
@@ -1032,7 +1032,7 @@ Q114) Identify the name of the highlighted district from the given map (2021):
 
 A) Baghpat
 B) Sonbhadra
-C) Shamli*
+C) Shamli
 D) Saharanpur
 
 break
@@ -1041,7 +1041,7 @@ Q115) Identify the name of the highlighted district from the given map (2020):
 
 A) Chandauli
 B) Mirzapur
-C) Sonbhadra*
+C) Sonbhadra
 D) Gazipur
 
 break
@@ -1051,14 +1051,14 @@ Q116) Identify the name of the highlighted district from the given map (2019):
 A) Hardoi
 B) Auraiya
 C) Manipuri
-D) Kannauj*
+D) Kannauj
 
 break
 
 Q117) Identify the name of the highlighted district from the given map (2018):
 
 A) Etah
-B) Farrukhabad*
+B) Farrukhabad
 C) Manipuri
 D) Hardoi
 
@@ -1066,7 +1066,7 @@ break
 
 Q118) Identify the name of the highlighted district from the given map (2017):
 
-A) Faizabad*
+A) Faizabad
 B) Ambedkar Nagar
 C) Barabanki
 D) Amethi
@@ -1110,10 +1110,10 @@ break
 
 Q124) Find the district with the highest and lowest crime rate (2021):
 
-A - Highest*
+A - Highest
 A- Lowest
 B- Highest
-B- Lowest*
+B- Lowest
 C - Highest
 C- Lowest
 D- Highest
@@ -1125,8 +1125,8 @@ Q125) Find the district with the highest and lowest crime rate (2020):
 
 A - Highest
 A- Lowest
-B- Highest*
-B- Lowest*
+B- Highest
+B- Lowest
 C - Highest
 C- Lowest
 D- Highest
@@ -1214,7 +1214,7 @@ break
 
 Q134) Which District is the neighbor of the highlighted district? (lalitpur) 2021
 
-A) Jhansi*
+A) Jhansi
 B) Mahoba
 C) Jalaun
 D) Hamirpur
@@ -1224,7 +1224,7 @@ break
 Q135) Which District is the neighbor of the highlighted district? (Bulandshahr) 2020
 
 A) Hatras
-B) Hapur*
+B) Hapur
 C) Moradabad
 D) Mathura
 
@@ -1232,7 +1232,7 @@ break
 
 Q136) Which District is the neighbor of the highlighted district? (Lucknow) 2019
 
-A) Unnao*
+A) Unnao
 B) Lakhimpur Kheri
 C) Amethi
 D) Fatehpur
@@ -1244,13 +1244,13 @@ Q137) Which District is the neighbor of the highlighted district? (Mau) 2018
 A) Gonda
 B) Jaunpur
 C) Chandauli
-D) Azamgarh*
+D) Azamgarh
 
 break
 
 Q138) Which District is the neighbor of the highlighted district? (Kaushambi) 2017
 
-A) Fatehpur*
+A) Fatehpur
 B) Sultanpur
 C) Banda
 D) Amethi
