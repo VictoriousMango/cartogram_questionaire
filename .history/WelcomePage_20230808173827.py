@@ -28,7 +28,7 @@ def app():
         st.markdown("<h5 style='text-align: center; color: grey;'>Cartogram is a Thematic map of a set of features (countries, provinces, etc.), in which their geographic size is altered which is directly proportional to a selected ratio-level variable, such as travel time, population, or GNP. </h5>", unsafe_allow_html=True)
         #st.markdown("<h6 style='text-align: center; color: grey;'>       to be directly proportional to a selected ratio-level variable, such as travel time, population, or GNP. </h6>", unsafe_allow_html=True)
         st.markdown("<h6 style='text-align: center; color: grey;'>                                Your responses are appreciated. Feel free to answer without any stress.</h6>", unsafe_allow_html=True)
-        st.markdown("<h6 style='text-align: center; color: grey;'>                                                   You can take <u>BREAK</u> in every section</h6>", unsafe_allow_html=True)
+        st.markdown("<h6 style='text-align: center; color: grey;'>                                                   You can take BREAK in every section</h6>", unsafe_allow_html=True)
 
         Save = st.button('Proceed', on_click=click)
         if Save:
