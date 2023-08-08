@@ -630,9 +630,11 @@ C) No Change
 
 break
 
-Q72) You can take break now
+Q72) You can take a Break now
 
 Z)
+
+break
 
 Q73) Locate "Bareilly" District according to 2021 Map:
 
