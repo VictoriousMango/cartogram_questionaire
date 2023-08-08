@@ -128,5 +128,6 @@ if __name__ == '__main__':
     if feedback and PersonalInfo:
         st.write('Ready to append')
         Flag = db.app(st.session_state['PersonalInfo'], Ans, feedback)
+        st.success(Flag)
     if Flag:
         Q.app()
