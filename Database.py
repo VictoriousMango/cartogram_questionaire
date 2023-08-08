@@ -32,9 +32,9 @@ def app(PersonalInfo, Ans, Feedback):
         return db.get(period)
     st.write('Hello')
     st.write(PersonalInfo, Ans, Feedback)
-    insert_ans(PersonalInfo, Ans, Feedback)
+    Flag = insert_ans(PersonalInfo, Ans, Feedback)
     st.success('Answers Saved Successful')
-    return 1
+    return Flag
     '''
     client = pymongo.MongoClient('mongodb+srv://yadashesh:yadashesh@cluster0.lqsjbx0.mongodb.net/CartogramAssessment')
     db = client['CartogramAssessment']
