@@ -127,7 +127,7 @@ if __name__ == '__main__':
         feedback = FB.app()
     if feedback and st.session_state['PersonalInfo']:
         st.write('Ready to append')
-        Flag = db.app(st.session_state['PersonalInfo'], Ans, feedback)
+        Flag = db.app(st.session_state['PersonalInfo'], st.session_state['nextStage'], feedback)
         st.success(Flag)
     if Flag:
         Q.app()
