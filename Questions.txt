@@ -88,35 +88,35 @@ D) Amethi
 
 break
 
-Q11) Visually Which state is bigger in size : Blue or Yellow? (2021):
+Q11) Visually Which district is bigger in size : Blue or Yellow? (2021):
 
 A) Barabanki (Blue)
 B) Lucknow (Yellow)
 
 break
 
-Q12) Visually Which state is bigger in size : Blue or Yellow? (2020):
+Q12) Visually Which district is bigger in size : Blue or Yellow? (2020):
 
 A) Pratapgarh(Blue)
 B) Ambedkar Nagar(Yellow)
 
 break
 
-Q13) Visually Which state is bigger in size : Blue or Yellow? (2019):
+Q13) Visually Which district is bigger in size : Blue or Yellow? (2019):
 
 A) Banda(Blue)
 B) Mahoba(Yellow)
 
 break
 
-Q14) Visually Which state is bigger in size : Blue or Yellow? (2018):
+Q14) Visually Which district is bigger in size : Blue or Yellow? (2018):
  
 A) Kannauj(blue)
 B) Auraiya(Yellow)
 
 break
 
-Q15) Visually Which state is bigger in size : Blue or Yellow? (2017):
+Q15) Visually Which district is bigger in size : Blue or Yellow? (2017):
 
 A) Siddarth Nagar(blue)
 B) Maharajganj(Yellow)
@@ -125,66 +125,46 @@ break
 
 Q16) Find the district with the highest and lowest crime rate (2021):
 
-A) A - Highest
-B) A- Lowest
-c) B- Highest
-D) B- Lowest
-E) C- Highest
-F) C- Lowest
-G) D- Highest
-H) D- lowest
+A) A - Highest & B - Lowest 
+B) A - Highest & C - Lowest
+c) D - Highest & D - Lowest
+D) C - Highest & C - Lowest 
 
 break
 
 Q17) Find the district with the highest and lowest crime rate (2020):
 
-A) A - Highest
-B) A- Lowest
-c) B- Highest
-D) B- Lowest
-E) C- Highest
-F) C- Lowest
-G) D- Highest
-H) D- lowest
-
+A) A - Highest & A - Lowest
+B) C - Highest & C - Lowest
+C) B - Highest & B - Lowest
+D) D - Highest & B - Lowest
+ 
 break
 
 Q18) Find the district with the highest and lowest crime rate (2019):
 
-A) A - Highest
-B) A- Lowest
-c) B- Highest
-D) B- Lowest
-E) C- Highest
-F) C- Lowest
-G) D- Highest
-H) D- lowest
+A) A - Highest & D - Lowest
+B) D - Highest & A - Lowest  
+C) B - Highest & C - Lowest
+D) C - Highest & C - Lowest
 
 break
 
 Q19) Find the district with the highest and lowest crime rate (2018):
 
-A) A - Highest
-B) A- Lowest
-c) B- Highest
-D) B- Lowest
-E) C- Highest
-F) C- Lowest
-G) D- Highest
-H) D- lowest
+A) A - Highest & A - Lowest
+B) A - Highest & B - Lowest
+C) B - Highest & D - Lowest
+D) D - Highest & E - Lowest
 
 break
 
 Q20) Find the district with the highest and lowest crime rate (2017):
 
-A) A - Highest
-B) A- Lowest
-c) B- Highest
-D) B- Lowest
-E) C- Highest
-F) C- Lowest
-G) D- Highest
-H) D- lowest
+A) A - Highest & D - Lowest
+B) D - Highest & A - Lowest
+C) C - Highest & A - Lowest
+D) B - Highest & C - Lowest
 
 break
 
@@ -365,7 +345,7 @@ D) D
 
 break
 
-Q41) Locate "Sant Kabir Nagar" according to 2017 Map:
+Q41) Locate "Sant Kabir Nagar" District according to 2017 Map:
 
 A) A
 B) B
@@ -419,35 +399,35 @@ D) Amethi
 
 break
 
-Q47) Visually Which state is bigger in size : Blue or Yellow? (2021):
+Q47) Visually Which district is bigger in size : Blue or Yellow? (2021):
 
 A) Barabanki (Blue)
 B) Lucknow (Yellow)
 
 break
 
-Q48) Visually Which state is bigger in size : Blue or Yellow? (2020):
+Q48) Visually Which district is bigger in size : Blue or Yellow? (2020):
 
 A) Pratapgarh(Blue)
 B) Ambedkar Nagar(Yellow)
 
 break
 
-Q49) Visually Which state is bigger in size : Blue or Yellow? (2019):
+Q49) Visually Which district is bigger in size : Blue or Yellow? (2019):
 
 A) Banda(Blue)
 B) Mahoba(Yellow)
 
 break
 
-Q50) Visually Which state is bigger in size : Blue or Yellow? (2018):
+Q50) Visually Which district is bigger in size : Blue or Yellow? (2018):
  
 A) Kannauj(blue)
 B) Auraiya(Yellow)
 
 break
 
-Q51) Visually Which state is bigger in size : Blue or Yellow? (2017):
+Q51) Visually Which district is bigger in size : Blue or Yellow? (2017):
 
 A) Siddarth Nagar(blue)
 B) Maharajganj(Yellow)
@@ -650,54 +630,52 @@ C) No Change
 
 break
 
-Q72) Locate "Bareilly" District according to 2021 Map:
-
-A) A
-B) B
-C) C
-D) D
-
-break
-
-Q73) Locate "Lucknow" District according to 2020 Map:
-
-A) A
-B) B
-C) C
-D) D
-
-break
-
-Q74) Locate "Basti" District according to 2019 Map:
-
-A) A
-B) B
-C) C
-D) D
-
-break
-
-Q75) Locate "Gonda" District according to 2018 Map:
-
-A) A
-B) B
-C) C
-D) D
-
-break
-
-Q76) Locate "Sant Kabir Nagar" according to 2017 Map:
-
-A) A
-B) B
-C) C
-D) D
-
-break
-
-Q77) You can take break now
+Q72) You can take break now
 
 Z)
+
+Q73) Locate "Bareilly" District according to 2021 Map:
+
+A) A
+B) B
+C) C
+D) D
+
+break
+
+Q74) Locate "Lucknow" District according to 2020 Map:
+
+A) A
+B) B
+C) C
+D) D
+
+break
+
+Q75) Locate "Basti" District according to 2019 Map:
+
+A) A
+B) B
+C) C
+D) D
+
+break
+
+Q76) Locate "Gonda" District according to 2018 Map:
+
+A) A
+B) B
+C) C
+D) D
+
+break
+
+Q77) Locate "Sant Kabir Nagar" district according to 2017 Map:
+
+A) A
+B) B
+C) C
+D) D
 
 break
 
@@ -746,35 +724,35 @@ D) Amethi
 
 break
 
-Q83) Visually Which state is bigger in size : Blue or Yellow? (2021):
+Q83) Visually Which district is bigger in size : Blue or Yellow? (2021):
 
 A) Barabanki (Blue)
 B) Lucknow (Yellow)
 
 break
 
-Q84) Visually Which state is bigger in size : Blue or Yellow? (2020):
+Q84) Visually Which district is bigger in size : Blue or Yellow? (2020):
 
 A) Pratapgarh(Blue)
 B) Ambedkar Nagar(Yellow)
 
 break
 
-Q85) Visually Which state is bigger in size : Blue or Yellow? (2019):
+Q85) Visually Which district is bigger in size : Blue or Yellow? (2019):
 
 A) Banda(Blue)
 B) Mahoba(Yellow)
 
 break
 
-Q86) Visually Which state is bigger in size : Blue or Yellow? (2018):
+Q86) Visually Which district is bigger in size : Blue or Yellow? (2018):
  
 A) Kannauj(blue)
 B) Auraiya(Yellow)
 
 break
 
-Q87) Visually Which state is bigger in size : Blue or Yellow? (2017):
+Q87) Visually Which district is bigger in size : Blue or Yellow? (2017):
 
 A) Siddarth Nagar(blue)
 B) Maharajganj(Yellow)
@@ -1019,7 +997,7 @@ D) D
 
 break
 
-Q113) Locate "Sant Kabir Nagar" according to 2017 Map:
+Q113) Locate "Sant Kabir Nagar" district according to 2017 Map:
 
 A) A
 B) B
@@ -1080,28 +1058,28 @@ B) Lucknow (Yellow)
 
 break
 
-Q120) Visually Which state is bigger in size : Blue or Yellow? (2020):
+Q120) Visually Which district is bigger in size : Blue or Yellow? (2020):
 
 A) Pratapgarh(Blue)
 B) Ambedkar Nagar(Yellow)
 
 break
 
-Q121) Visually Which state is bigger in size : Blue or Yellow? (2019):
+Q121) Visually Which district is bigger in size : Blue or Yellow? (2019):
 
 A) Banda(Blue)
 B) Mahoba(Yellow)
 
 break
 
-Q122) Visually Which state is bigger in size : Blue or Yellow? (2018):
+Q122) Visually Which district is bigger in size : Blue or Yellow? (2018):
  
 A) Kannauj(blue)
 B) Auraiya(Yellow)
 
 break
 
-Q123) Visually Which state is bigger in size : Blue or Yellow? (2017):
+Q123) Visually Which district is bigger in size : Blue or Yellow? (2017):
 
 A) Siddarth Nagar(blue)
 B) Maharajganj(Yellow)
