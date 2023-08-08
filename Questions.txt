@@ -127,7 +127,7 @@ Q16) Find the district with the highest and lowest crime rate (2021):
 
 A) A - Highest & B - Lowest 
 B) A - Highest & C - Lowest
-c) D - Highest & D - Lowest
+C) D - Highest & D - Lowest
 D) C - Highest & C - Lowest 
 
 break
