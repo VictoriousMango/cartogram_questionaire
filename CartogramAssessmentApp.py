@@ -125,7 +125,7 @@ if __name__ == '__main__':
     if st.session_state['nextStage']:
         NotProceded = 0
         feedback = FB.app()
-    if feedback and PersonalInfo:
+    if feedback and st.session_state['PersonalInfo']:
         st.write('Ready to append')
         Flag = db.app(st.session_state['PersonalInfo'], Ans, feedback)
         st.success(Flag)
