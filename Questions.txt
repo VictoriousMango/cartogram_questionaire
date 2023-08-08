@@ -1154,7 +1154,7 @@ D- lowest
 
 break
 
-Q127) Compared the Red district in the Map-A has the Blue district in the Map-B grown or shrunk? 2021-Chitrakut
+Q129) Compared the Red district in the Map-A has the Blue district in the Map-B grown or shrunk? 2021-Chitrakut
 
 A) Shrunk
 B) Grown
