@@ -10,7 +10,7 @@ from deta import Deta
 def app(PersonalInfo, Ans, Feedback):
     # d0md8swdtzk_gZ4KhRfEWeNSqbFLHzHjPWJonm7yteyD ANS_Part_2
     # Load the environment variables
-    DETA_KEY = 'd0md8swdtzk_E7a3CqxYWfgL1E426fiH3gaBBSR2HgL6'
+    DETA_KEY = 'd0md8swdtzk_gZ4KhRfEWeNSqbFLHzHjPWJonm7yteyD' #'d0md8swdtzk_E7a3CqxYWfgL1E426fiH3gaBBSR2HgL6'
 
     # Initialize with a project key
     deta = Deta(DETA_KEY)
