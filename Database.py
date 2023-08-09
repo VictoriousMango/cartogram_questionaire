@@ -8,9 +8,9 @@ from deta import Deta
 # Key : d0md8swdtzk_E7a3CqxYWfgL1E426fiH3gaBBSR2HgL6
 
 def app(PersonalInfo, Ans, Feedback):
-
+    # d0md8swdtzk_gZ4KhRfEWeNSqbFLHzHjPWJonm7yteyD ANS_Part_2
     # Load the environment variables
-    DETA_KEY = 'd0md8swdtzk_E7a3CqxYWfgL1E426fiH3gaBBSR2HgL6'
+    DETA_KEY = 'd0md8swdtzk_gZ4KhRfEWeNSqbFLHzHjPWJonm7yteyD' #'d0md8swdtzk_E7a3CqxYWfgL1E426fiH3gaBBSR2HgL6'
 
     # Initialize with a project key
     deta = Deta(DETA_KEY)
@@ -32,9 +32,9 @@ def app(PersonalInfo, Ans, Feedback):
         return db.get(period)
     st.write('Hello')
     st.write(PersonalInfo, Ans, Feedback)
-    insert_ans(PersonalInfo, Ans, Feedback)
+    Flag = insert_ans(PersonalInfo, Ans, Feedback)
     st.success('Answers Saved Successful')
-    return 1
+    return Flag
     '''
     client = pymongo.MongoClient('mongodb+srv://yadashesh:yadashesh@cluster0.lqsjbx0.mongodb.net/CartogramAssessment')
     db = client['CartogramAssessment']
