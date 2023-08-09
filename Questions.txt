@@ -436,65 +436,46 @@ break
 
 Q52) Find the district with the highest and lowest crime rate (2021):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-C- Lowest
-D- Highest
-D- lowest
+A) C - Highest & D - Lowest 
+B) D - Highest & B - Lowest
+C) A - Highest & B - Lowest
+D) B - Highest & A - Lowest
 
 break
 
 Q53) Find the district with the highest and lowest crime rate (2020):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-C- Lowest
-D- Highest
-D- lowest
+A) C - Highest & D - Lowest
+B) B - Highest & D - Lowest
+C) A - Highest & A - Lowest
+D) D - Highest & B - Lowest
 
 break
 
 Q54) Find the district with the highest and lowest crime rate (2019):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-C- Lowest
-D- Highest
-D- lowest
+A) D - Highest & D - Lowest
+B) A - Highest & A - Lowest
+C) B - Highest & B - Lowest
+D) B - Highest & A - Lowest
 
 break
 
 Q55) Find the district with the highest and lowest crime rate (2018):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-C - Lowest
-D- Highest
-D- lowest
+A) B - Highest & B - Lowest
+B) A - Highest & A - Lowest
+C) D - Highest & B - Lowest
+D) C - Highest & C - Lowest
 
 break
 
 Q56) Find the district with the highest and lowest crime rate (2017):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-D- Highest
-D- lowest
+A) D - Highest & A - Lowest
+B) B - Highest & C - Lowest
+C) A - Highest & D - Lowest
+D) C - Highest & C - Lowest
 
 break
 
@@ -764,65 +745,46 @@ break
 
 Q88) Find the district with the highest and lowest crime rate (2021):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-C- Lowest
-D- Highest
-D- lowest
+A) B - Highest & D - Lowest
+B) D - Highest & A - Lowest
+C) D - Highest & B - Lowest
+D) B - Highest & C - Lowest
 
 break
 
 Q89) Find the district with the highest and lowest crime rate (2020):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-C- Lowest
-D- Highest
-D- lowest
+A) B - Highest & B - Lowest
+B) A - Highest & A - Lowest
+C) D - Highest & B - Lowest
+D) C - Highest & C - Lowest
 
 break
 
 Q90) Find the district with the highest and lowest crime rate (2019):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-C- Lowest
-D- Highest
-D- lowest
+A) A - Highest & D - Lowest
+B) A - Highest & A - Lowest
+C) D - Highest & B - Lowest
+D) C - Highest & A - Lowest
 
 break
 
 Q91) Find the district with the highest and lowest crime rate (2018):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-C - Lowest
-D- Highest
-D- lowest
+A) A - Highest & A - Lowest
+B) A - Highest & C - Lowest
+C) D - Highest & B - Lowest
+D) A - Highest & D - Lowest
 
 break
 
 Q92) Find the district with the highest and lowest crime rate (2017):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-D- Highest
-D- lowest
+A) A - Highest & B - Lowest
+B) C - Highest & A - Lowest
+C) B - Highest & B - Lowest
+D) C - Highest & D - Lowest
 
 break
 
@@ -1092,65 +1054,46 @@ break
 
 Q124) Find the district with the highest and lowest crime rate (2021):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-C- Lowest
-D- Highest
-D- lowest
+A) B - Highest & D - Lowest
+B) A - Highest & A - Lowest
+C) D - Highest & B - Lowest
+D) C - Highest & C - Lowest
 
 break
 
 Q125) Find the district with the highest and lowest crime rate (2020):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-C- Lowest
-D- Highest
-D- lowest
+A) B - Highest & B - Lowest
+B) A - Highest & D - Lowest
+C) D - Highest & B - Lowest
+D) C - Highest & D - Lowest
 
 break
 
 Q126) Find the district with the highest and lowest crime rate (2019):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-C- Lowest
-D- Highest
-D- lowest
+A) B - Highest & B - Lowest
+B) C - Highest & C - Lowest
+C) D - Highest & B - Lowest
+D) C - Highest & C - Lowest
 
 break
 
 Q127) Find the district with the highest and lowest crime rate (2018):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-C - Lowest
-D- Highest
-D- lowest
+A) B - Highest & B - Lowest
+B) A - Highest & A - Lowest
+C) D - Highest & B - Lowest
+D) D - Highest & A - Lowest
 
 break
 
 Q128) Find the district with the highest and lowest crime rate (2017):
 
-A - Highest
-A- Lowest
-B- Highest
-B- Lowest
-C - Highest
-D- Highest
-D- lowest
+A) B - Highest & D - Lowest
+B) A - Highest & A - Lowest
+C) D - Highest & B - Lowest
+D) C - Highest & A - Lowest
 
 break
 
