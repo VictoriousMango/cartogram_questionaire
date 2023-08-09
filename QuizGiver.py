@@ -152,7 +152,7 @@ def app(QuizDoc, time_stamp):
                 if 'Section' in Ques[Index]:
                     st.success(True)
                 else:
-                    st.danger(False)
+                    st.error(False)
                 col1.write('--------------------------------------------------------------')
                 st.session_state['SelfAnalysis'] = f"Q{st.session_state['Index'] + 1}) => Ans: {st.session_state['Answer']}"
 
