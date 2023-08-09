@@ -172,7 +172,7 @@ D) B - Highest & C - Lowest
 
 break
 
-Q21) Compared the Red district in the Map-A has the Blue district in the Map-B grown or shrunk? 2021-Chitrakut
+Q21) Find wheather highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -180,7 +180,7 @@ C) No Change
 
 break
 
-Q22) Compared the Red district in the Map-A has the Blue district in the Map-B grown or shrunk? 2020-Ballia
+Q22) Find wheather highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -188,7 +188,7 @@ C) No Change
 
 break
 
-Q23) Compared the Red district in the Map-A has the Blue district in the Map-B grown or shrunk? 2019-Mainpuri
+Q23) Find wheather highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -196,7 +196,7 @@ C) No Change
 
 break
 
-Q24) Compared the Red district in the Map-A has the Blue district in the Map-B grown or shrunk? 2018-Deoria
+Q24) Find wheather highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -204,7 +204,7 @@ C) No Change
 
 break
 
-Q25) Compared the Red district in the Map-A has the Blue district in the Map-B grown or shrunk? 2017-Bareilly
+Q25) Find wheather highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
