@@ -154,12 +154,12 @@ def app(QuizDoc, time_stamp):
 
                 st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
 
-                img_src = f'{Index + 1}.png'
+                img_src = f'{Index}.png'
                 try:
                     img = Image.open(img_src)
                     arr = np.array(img)
                 except FileNotFoundError:
-                    img_src = f'{Index + 1}.jpg'
+                    img_src = f'{Index}.jpg'
                 try:
                     img = Image.open(img_src)
                     arr = np.array(img)
