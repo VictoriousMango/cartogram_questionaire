@@ -153,32 +153,32 @@ def app(QuizDoc, time_stamp):
                     st.success(True)
                 else:
                     st.error(False)
-                col1.write('--------------------------------------------------------------')
-                st.session_state['SelfAnalysis'] = f"Q{st.session_state['Index'] + 1}) => Ans: {st.session_state['Answer']}"
-
-                st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
-
-                img_src = f'{Index}.png'
+                    col1.write('--------------------------------------------------------------')
+                    st.session_state['SelfAnalysis'] = f"Q{st.session_state['Index'] + 1}) => Ans: {st.session_state['Answer']}"
+    
+                    st.session_state['Answer'] = col1.radio(Ques[Index], Questionaire[Ques[Index]])
+    
+                    img_src = f'{Index}.png'
+                    try:
+                        img = Image.open(img_src)
+                        arr = np.array(img)
+                    except FileNotFoundError:
+                        img_src = f'{Index}.jpg'
+                    try:
+                        img = Image.open(img_src)
+                        arr = np.array(img)
+                    except FileNotFoundError:
+                        pass
+                    # img = imread(img_src)\
+                col2.write('-----------------------------------------------------------')
                 try:
-                    img = Image.open(img_src)
-                    arr = np.array(img)
-                except FileNotFoundError:
-                    img_src = f'{Index}.jpg'
-                try:
-                    img = Image.open(img_src)
-                    arr = np.array(img)
-                except FileNotFoundError:
+                    col2.image(arr)
+                except:
                     pass
-                # img = imread(img_src)\
-            col2.write('-----------------------------------------------------------')
-            try:
-                col2.image(arr)
-            except:
-                pass
-            # col2.write('-----------------------------------------------------------')
-
-            st.write('-----------------------------------------------------------')
-            st.write()
+                # col2.write('-----------------------------------------------------------')
+    
+                st.write('-----------------------------------------------------------')
+                st.write()
 
     if st.session_state['Index'] < len(Ques):
         Save = col3.button("Save for Q " + str(st.session_state['Index'] + 1))
