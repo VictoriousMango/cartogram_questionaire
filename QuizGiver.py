@@ -150,18 +150,18 @@ def app(QuizDoc, time_stamp):
                 # st.empty()
                 st.write()
                 img_src = f'{Index}.png'
-                    try:
-                        img = Image.open(img_src)
-                        arr = np.array(img)
-                    except FileNotFoundError:
-                        img_src = f'{Index}.jpg'
-                    try:
-                        img = Image.open(img_src)
-                        arr = np.array(img)
-                    except FileNotFoundError:
-                        pass
-                    # img = imread(img_src)\
-                    st.image(arr)
+                try:
+                    img = Image.open(img_src)
+                    arr = np.array(img)
+                except FileNotFoundError:
+                    img_src = f'{Index}.jpg'
+                try:
+                    img = Image.open(img_src)
+                    arr = np.array(img)
+                except FileNotFoundError:
+                    pass
+                # img = imread(img_src)\
+                st.image(arr)
                 if 'Section' in Ques[Index]:
                     st.success(True)
                 else:
