@@ -149,7 +149,7 @@ def app(QuizDoc, time_stamp):
             if st.session_state['Index'] < len(Ques):
                 # st.empty()
                 st.write()
-                if 'Section' in Ques['Index']:
+                if 'Section' in Ques[Index]:
                     st.success(True)
                 else:
                     st.danger(False)
