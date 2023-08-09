@@ -183,15 +183,15 @@ def app(QuizDoc, time_stamp):
                     except FileNotFoundError:
                         pass
                     # img = imread(img_src)\
-                col2.write('-----------------------------------------------------------')
-                try:
-                    col2.image(arr1)
-                except:
-                    pass
-                # col2.write('-----------------------------------------------------------')
-    
-                st.write('-----------------------------------------------------------')
-                st.write()
+                    col2.write('-----------------------------------------------------------')
+                    try:
+                        col2.image(arr1)
+                    except:
+                        pass
+                    # col2.write('-----------------------------------------------------------')
+        
+                    st.write('-----------------------------------------------------------')
+                    st.write()
 
     if st.session_state['Index'] < len(Ques):
         Save = col3.button("Save for Q " + str(st.session_state['Index'] + 1))
