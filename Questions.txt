@@ -1,3 +1,7 @@
+Q0) Section A: Choropleth Map
+
+break
+
 Q1) Locate "Bareilly" District according to 2021 Map:
 
 A) A
@@ -301,11 +305,9 @@ C) No Change
 
 break
 
-Q36) You can take break now
+Q36) Section B: Contiguous Cartogram
 
-A) Increased
-B) Decreased
-C) No Change
+Z)
 
 break
 
@@ -612,7 +614,7 @@ C) No Change
 
 break
 
-Q72) You can take a Break now
+Q72) Section C: Non - Contiguous Cartogram
 
 Z)
 
@@ -921,7 +923,7 @@ C) No Change
 
 break
 
-Q108) You can take a Break now
+Q108) Section D: Dorling Cartogram
 
 Z)
 
