@@ -149,8 +149,7 @@ def app(QuizDoc, time_stamp):
             if st.session_state['Index'] < len(Ques):
                 # st.empty()
                 st.write()
-                if 'Section' in Ques[Index]:
-                    img_src = f'{Index}.png'
+                img_src = f'{Index}.png'
                     try:
                         img = Image.open(img_src)
                         arr = np.array(img)
@@ -163,6 +162,7 @@ def app(QuizDoc, time_stamp):
                         pass
                     # img = imread(img_src)\
                     st.image(arr)
+                if 'Section' in Ques[Index]:
                     st.success(True)
                 else:
                     st.error(False)
@@ -185,7 +185,7 @@ def app(QuizDoc, time_stamp):
                     # img = imread(img_src)\
                     col2.write('-----------------------------------------------------------')
                     try:
-                        col2.image(arr1)
+                        #col2.image(arr1)
                     except:
                         pass
                     # col2.write('-----------------------------------------------------------')
@@ -193,7 +193,7 @@ def app(QuizDoc, time_stamp):
                     st.write('-----------------------------------------------------------')
                     st.write()
 
-    if st.session_state['Index'] < len(Ques):
+    if st.session_state['Index'] < len(Ques) and 'Section' in Ques[Index]:
         Save = col3.button("Save for Q " + str(st.session_state['Index'] + 1))
         # st.success(st.session_state['SelfAnalysis'])
         if Save:
@@ -207,6 +207,14 @@ def app(QuizDoc, time_stamp):
                 st.session_state['Index'] += 1
         # Questions(st.session_state['Index'])
     # Finish = st.button('Finish Button Part 2')
+    else:
+        Sec = Ques[Index].split(':')[-1]
+        Next = st.button('Start Section ' + str(Sec))
+        if Save:
+            st.empty()
+            if st.session_state['Index'] < len(Ques):
+                st.session_state['Index'] += 1
+        
 
     Questions(st.session_state['Index'])
 
