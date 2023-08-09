@@ -33,7 +33,7 @@ def app(PersonalInfo, Ans, Feedback):
     #st.write('Hello')
     #st.write(PersonalInfo, Ans, Feedback)
     Flag = insert_ans(PersonalInfo, Ans, Feedback)
-    #st.success('Answers Saved Successful')
+    st.success('Answers Saved Successful')
     return Flag
     '''
     client = pymongo.MongoClient('mongodb+srv://yadashesh:yadashesh@cluster0.lqsjbx0.mongodb.net/CartogramAssessment')

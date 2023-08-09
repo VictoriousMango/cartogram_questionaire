@@ -9,6 +9,7 @@ import QuizGiver as QG
 # Imports
 
 def app():
+    st.empty()
     st.header('Thank You For Your Patience')
     #st.write(Key)
     #st.write(Ans)
