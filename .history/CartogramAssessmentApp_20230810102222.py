@@ -108,7 +108,9 @@ if __name__ == '__main__':
     
     if Proceed0 == 1:
         Proceed1 = Intro1.app()
-        PInfo()        
+        PInfo()
+        Proceed0 = 0
+        
         
     Start = 0
     PersonalInfo = 0

@@ -96,23 +96,15 @@ def app(NotProceded):
 
 
 if __name__ == '__main__':
-    # Functions
-    def PInfo():
-        if Proceed1 == 1:
-            (st.session_state['PersonalInfo'], Start) = WP.app()
-
-
     Proceed0 = Intro0.app()
-    #Proceed1 = Intro1.app()
+    Proceed1 = Intro1.app()
     Proceed1 = 0
-    
-    if Proceed0 == 1:
+    if Proceed0:
         Proceed1 = Intro1.app()
-        PInfo()        
-        
     Start = 0
     PersonalInfo = 0
-    
+    if Proceed1 == 1:
+        (st.session_state['PersonalInfo'], Start) = WP.app()
 
     # st.write(Key)
     # st.write(Email)

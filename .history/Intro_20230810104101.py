@@ -27,9 +27,9 @@ def app():
 
         st.markdown("<h3 style='text-align: center; color: grey;'>Hello</h3>", unsafe_allow_html=True)
         st.markdown("<h3 style='text-align: center; color: grey;'>Everyone!</h3>", unsafe_allow_html=True)
-        st.markdown("<h5 style='text-align: center; color: grey;'>We're excited to have you participate in our survey for evaluating different maps.</h5>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align: center; color: grey;'>We're excited to have you participate in our survey on cartogram evaluation.</h5>", unsafe_allow_html=True)
         st.markdown("<h5 style='text-align: center; color: grey;'>Your insights and opinions are invaluable as we delve into the world of geographic visualization.</h5>", unsafe_allow_html=True)
-        col1, col2, col3 = st.columns([3, 3, 2])
+        col1, col2, col3 = st.columns([1, 1, 1])
         Save = col2.button('Proceed To Guidelines', on_click=click)
         if Save:
             st.empty()

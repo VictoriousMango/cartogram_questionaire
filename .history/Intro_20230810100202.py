@@ -25,18 +25,17 @@ def app():
             unsafe_allow_html=True,
         )
 
-        st.markdown("<h3 style='text-align: center; color: grey;'>Hello</h3>", unsafe_allow_html=True)
-        st.markdown("<h3 style='text-align: center; color: grey;'>Everyone!</h3>", unsafe_allow_html=True)
-        st.markdown("<h5 style='text-align: center; color: grey;'>We're excited to have you participate in our survey for evaluating different maps.</h5>", unsafe_allow_html=True)
-        st.markdown("<h5 style='text-align: center; color: grey;'>Your insights and opinions are invaluable as we delve into the world of geographic visualization.</h5>", unsafe_allow_html=True)
-        col1, col2, col3 = st.columns([3, 3, 2])
-        Save = col2.button('Proceed To Guidelines', on_click=click)
+        st.markdown("<h5 style='text-align: center; color: grey;'>Cartogram is a Thematic map of a set of features (countries, provinces, etc.), in which their geographic size is altered which is directly proportional to a selected ratio-level variable, such as travel time, population, or GNP. </h5>", unsafe_allow_html=True)
+        #st.markdown("<h6 style='text-align: center; color: grey;'>       to be directly proportional to a selected ratio-level variable, such as travel time, population, or GNP. </h6>", unsafe_allow_html=True)
+        st.markdown("<h6 style='text-align: center; color: grey;'>                                Your responses are appreciated. Feel free to answer without any stress.</h6>", unsafe_allow_html=True)
+        st.markdown("<h6 style='text-align: center; color: grey;'>                                                   You can take <u><i>BREAK</i></u> in every section</h6>", unsafe_allow_html=True)
+
+        Save = st.button('Proceed', on_click=click)
         if Save:
             st.empty()
     #Start = st.session_state['Start']
     Proceed = st.session_state['Proceed']
     if Proceed:
-        st.session_state['Proceed'] = 1
         return 1
     else:
         return 0

@@ -41,11 +41,8 @@ def app():
                 st.markdown(f"<h3 style='text-align: center; color: grey;'>{keys[i]}</h3>", unsafe_allow_html=True)
                 st.write(Guidelines[keys[i]])
                 if i == len(keys) - 1:
-                    col1, col2 = st.columns([1, 1])
-                    col1.write('Phone Number : ')
-                    col2.write('6289926460')
-                    col1.write('Email ID : ')
-                    col2.write('Satyam.mishra22@st.niituniveristy.in')
+                    st.write('Phone Number : 6289926460')
+                    st.write('Email ID : Satyam.mishra22@st.niituniveristy.in')
         #st.markdown("<h5 style='text-align: center; color: grey;'></h5>", unsafe_allow_html=True)
         #st.markdown("<h6 style='text-align: center; color: grey;'></h6>", unsafe_allow_html=True)
         #st.markdown("<h6 style='text-align: center; color: grey;'></h6>", unsafe_allow_html=True)
