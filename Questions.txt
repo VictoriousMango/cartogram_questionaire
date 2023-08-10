@@ -850,9 +850,10 @@ break
 
 Q100) Which District is the neighbour of the highlighted district?
 
-B) Lakhimpur Kheri
-C) Amethi
-D) Fatehpur
+A) Lakhimpur Kheri
+B) Amethi
+C) Fatehpur
+D) Sultanpur
 
 break
 
