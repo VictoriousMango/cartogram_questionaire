@@ -2,7 +2,7 @@ Q0) Section A: Choropleth Map
 
 break
 
-Q1) Locate "Bareilly" District according to 2021 Map:
+Q1) Locate "Bareilly" District according to the 2021 Map:
 
 A) A
 B) B
@@ -11,7 +11,7 @@ D) D
 
 break
 
-Q2) Locate "Lucknow" District according to 2020 Map:
+Q2) Locate "Lucknow" District according to the 2020 Map:
 
 A) A
 B) B
@@ -20,7 +20,7 @@ D) D
 
 break
 
-Q3) Locate "Basti" District according to 2019 Map:
+Q3) Locate "Basti" District according to the 2019 Map:
 
 A) A
 B) B
@@ -29,7 +29,7 @@ D) D
 
 break
 
-Q4) Locate "Gonda" District according to 2018 Map:
+Q4) Locate "Gonda" District according to the 2018 Map:
 
 A) A
 B) B
@@ -38,7 +38,7 @@ D) D
 
 break
 
-Q5) Locate "Sant Kabir Nagar" according to 2017 Map:
+Q5) Locate "Sant Kabir Nagar" according to the 2017 Map:
 
 A) A
 B) B
@@ -47,7 +47,7 @@ D) D
 
 break
 
-Q6) Identify the name of the highlighted district from the given map (2021):
+Q6) Identify the name of the highlighted district from the given map:
 
 A) Baghpat
 B) Sonbhadra
@@ -56,7 +56,7 @@ D) Saharanpur
 
 break
 
-Q7) Identify the name of the highlighted district from the given map (2020):
+Q7) Identify the name of the highlighted district from the given map:
 
 A) Chandauli
 B) Mirzapur
@@ -65,7 +65,7 @@ D) Gazipur
 
 break
 
-Q8) Identify the name of the highlighted district from the given map (2019):
+Q8) Identify the name of the highlighted district from the given map:
 
 A) Hardoi
 B) Auraiya
@@ -74,7 +74,7 @@ D) Kannauj
 
 break
 
-Q9) Identify the name of the highlighted district from the given map (2018):
+Q9) Identify the name of the highlighted district from the given map:
 
 A) Etah
 B) Farrukhabad
@@ -83,7 +83,7 @@ D) Hardoi
 
 break
 
-Q10) Identify the name of the highlighted district from the given map (2017):
+Q10) Identify the name of the highlighted district from the given map:
 
 A) Faizabad
 B) Ambedkar Nagar
@@ -92,42 +92,42 @@ D) Amethi
 
 break
 
-Q11) Visually Which district is bigger in size : Blue or Yellow? (2021):
+Q11) Visually Which district is bigger in size : Blue or Yellow:
 
 A) Barabanki (Blue)
 B) Lucknow (Yellow)
 
 break
 
-Q12) Visually Which district is bigger in size : Blue or Yellow? (2020):
+Q12) Visually Which district is bigger in size : Blue or Yellow:
 
 A) Pratapgarh(Blue)
 B) Ambedkar Nagar(Yellow)
 
 break
 
-Q13) Visually Which district is bigger in size : Blue or Yellow? (2019):
+Q13) Visually Which district is bigger in size : Blue or Yellow:
 
 A) Banda(Blue)
 B) Mahoba(Yellow)
 
 break
 
-Q14) Visually Which district is bigger in size : Blue or Yellow? (2018):
+Q14) Visually Which district is bigger in size : Blue or Yellow:
  
 A) Kannauj(blue)
 B) Auraiya(Yellow)
 
 break
 
-Q15) Visually Which district is bigger in size : Blue or Yellow? (2017):
+Q15) Visually Which district is bigger in size : Blue or Yellow:
 
 A) Siddarth Nagar(blue)
 B) Maharajganj(Yellow)
 
 break
 
-Q16) Find the district with the highest and lowest crime rate (2021):
+Q16) Find the district with the highest and lowest crime rate in the given map:
 
 A) A - Highest & B - Lowest 
 B) A - Highest & C - Lowest
@@ -136,7 +136,7 @@ D) C - Highest & C - Lowest
 
 break
 
-Q17) Find the district with the highest and lowest crime rate (2020):
+Q17) Find the district with the highest and lowest crime rate in the given map:
 
 A) A - Highest & A - Lowest
 B) C - Highest & C - Lowest
@@ -145,7 +145,7 @@ D) D - Highest & B - Lowest
  
 break
 
-Q18) Find the district with the highest and lowest crime rate (2019):
+Q18) Find the district with the highest and lowest crime rate in the given map:
 
 A) A - Highest & D - Lowest
 B) D - Highest & A - Lowest  
@@ -154,7 +154,7 @@ D) C - Highest & C - Lowest
 
 break
 
-Q19) Find the district with the highest and lowest crime rate (2018):
+Q19) Find the district with the highest and lowest crime rate in the given map:
 
 A) A - Highest & A - Lowest
 B) A - Highest & B - Lowest
@@ -163,7 +163,7 @@ D) D - Highest & E - Lowest
 
 break
 
-Q20) Find the district with the highest and lowest crime rate (2017):
+Q20) Find the district with the highest and lowest crime rate in the given map:
 
 A) A - Highest & D - Lowest
 B) D - Highest & A - Lowest
@@ -172,7 +172,7 @@ D) B - Highest & C - Lowest
 
 break
 
-Q21) Find wheather highlighted district is........ compared to the original map
+Q21) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -180,7 +180,7 @@ C) No Change
 
 break
 
-Q22) Find wheather highlighted district is........ compared to the original map
+Q22) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -188,7 +188,7 @@ C) No Change
 
 break
 
-Q23) Find wheather highlighted district is........ compared to the original map
+Q23) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -196,7 +196,7 @@ C) No Change
 
 break
 
-Q24) Find wheather highlighted district is........ compared to the original map
+Q24) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -204,7 +204,7 @@ C) No Change
 
 break
 
-Q25) Find wheather highlighted district is........ compared to the original map
+Q25) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -212,7 +212,7 @@ C) No Change
 
 break
 
-Q26) Which District is the neighbor of the highlighted district? (lalitpur) 2021
+Q26) Which District is the neighbour of the highlighted district?
 
 A) Jhansi
 B) Mahoba
@@ -221,7 +221,7 @@ D) Hamirpur
 
 break
 
-Q27) Which District is the neighbor of the highlighted district? (Bulandshahr) 2020
+Q27) Which District is the neighbour of the highlighted district?
 
 A) Hatras
 B) Hapur
@@ -230,7 +230,7 @@ D) Mathura
 
 break
 
-Q28) Which District is the neighbor of the highlighted district? (Lucknow) 2019
+Q28) Which District is the neighbour of the highlighted district?
 
 A) Unnao
 B) Lakhimpur Kheri
@@ -239,7 +239,7 @@ D) Fatehpur
 
 break
 
-Q29) Which District is the neighbor of the highlighted district? (Mau) 2018
+Q29) Which District is the neighbour of the highlighted district?
 
 A) Gonda
 B) Jaunpur
@@ -248,7 +248,7 @@ D) Azamgarh
 
 break
 
-Q30) Which District is the neighbor of the highlighted district? (Kaushambi) 2017
+Q30) Which District is the neighbour of the highlighted district?
 
 A) Fatehpur
 B) Sultanpur
@@ -257,7 +257,7 @@ D) Amethi
 
 break
 
-Q31) In which year highest number of the crimes happened in Bareilly?
+Q31) In which year the highest number of crimes happened in Bareilly?
 
 A) 2021
 B) 2020
@@ -267,7 +267,7 @@ E) 2017
 
 break
 
-Q32) In which year lowest number of the crimes happened in Bareilly?
+Q32) In which year the lowest number of crimes happened in Bareilly?
 
 A) 2021
 B) 2020
@@ -277,7 +277,7 @@ E) 2017
 
 break
 
-Q33) In which year highest number of crimes happened in Ghaziabad ?
+Q33) In which year the highest number of crimes happened in Ghaziabad?
 
 A) 2021
 B) 2020
@@ -287,7 +287,7 @@ E) 2017
 
 break
 
-Q34) In which year lowest number of crimes happened in Ghaziabad ?
+Q34) In which year the lowest number of crimes happened in Ghaziabad?
 
 A) 2021
 B) 2020
@@ -297,7 +297,7 @@ E) 2017
 
 break
 
-Q35) What can you say about the trend in crime since 5years back in "Kanpur Nagar" ?
+Q35) What can you say about the trend in crime since 5 years back in "Kanpur Nagar"?
 
 A) Increased
 B) Decreased
@@ -311,7 +311,7 @@ Z)
 
 break
 
-Q37) Locate "Bareilly" District according to 2021 Map:
+Q37) Locate "Bareilly" District according to the 2021 Map:
 
 A) A
 B) B
@@ -320,7 +320,7 @@ D) D
 
 break
 
-Q38) Locate "Lucknow" District according to 2020 Map:
+Q38) Locate "Lucknow" District according to the 2020 Map:
 
 A) A
 B) B
@@ -329,7 +329,7 @@ D) D
 
 break
 
-Q39) Locate "Basti" District according to 2019 Map:
+Q39) Locate "Basti" District according to the 2019 Map:
 
 A) A
 B) B
@@ -338,7 +338,7 @@ D) D
 
 break
 
-Q40) Locate "Gonda" District according to 2018 Map:
+Q40) Locate "Gonda" District according to the 2018 Map:
 
 A) A
 B) B
@@ -347,7 +347,7 @@ D) D
 
 break
 
-Q41) Locate "Sant Kabir Nagar" District according to 2017 Map:
+Q41) Locate "Sant Kabir Nagar" District according to the 2017 Map:
 
 A) A
 B) B
@@ -356,7 +356,7 @@ D) D
 
 break
 
-Q42) Identify the name of the highlighted district from the given map (2021):
+Q42) Identify the name of the highlighted district from the given map:
 
 A) Baghpat
 B) Sonbhadra
@@ -365,7 +365,7 @@ D) Saharanpur
 
 break
 
-Q43) Identify the name of the highlighted district from the given map (2020):
+Q43) Identify the name of the highlighted district from the given map:
 
 A) Chandauli
 B) Mirzapur
@@ -374,7 +374,7 @@ D) Gazipur
 
 break
 
-Q44) Identify the name of the highlighted district from the given map (2019):
+Q44) Identify the name of the highlighted district from the given map:
 
 A) Hardoi
 B) Auraiya
@@ -383,7 +383,7 @@ D) Kannauj
 
 break
 
-Q45) Identify the name of the highlighted district from the given map (2018):
+Q45) Identify the name of the highlighted district from the given map:
 
 A) Etah
 B) Farrukhabad
@@ -392,7 +392,7 @@ D) Hardoi
 
 break
 
-Q46) Identify the name of the highlighted district from the given map (2017):
+Q46) Identify the name of the highlighted district from the given map:
 
 A) Faizabad
 B) Ambedkar Nagar
@@ -401,42 +401,42 @@ D) Amethi
 
 break
 
-Q47) Visually Which district is bigger in size : Blue or Yellow? (2021):
+Q47) Visually Which district is bigger in size: Blue or Yellow:
 
 A) Barabanki (Blue)
 B) Lucknow (Yellow)
 
 break
 
-Q48) Visually Which district is bigger in size : Blue or Yellow? (2020):
+Q48) Visually Which district is bigger in size: Blue or Yellow:
 
 A) Pratapgarh(Blue)
 B) Ambedkar Nagar(Yellow)
 
 break
 
-Q49) Visually Which district is bigger in size : Blue or Yellow? (2019):
+Q49) Visually Which district is bigger in size: Blue or Yellow:
 
 A) Banda(Blue)
 B) Mahoba(Yellow)
 
 break
 
-Q50) Visually Which district is bigger in size : Blue or Yellow? (2018):
+Q50) Visually Which district is bigger in size: Blue or Yellow:
  
 A) Kannauj(blue)
 B) Auraiya(Yellow)
 
 break
 
-Q51) Visually Which district is bigger in size : Blue or Yellow? (2017):
+Q51) Visually Which district is bigger in size: Blue or Yellow:
 
 A) Siddarth Nagar(blue)
 B) Maharajganj(Yellow)
 
 break
 
-Q52) Find the district with the highest and lowest crime rate (2021):
+Q52) Find the district with the highest and lowest crime rate:
 
 A) C - Highest & D - Lowest 
 B) D - Highest & B - Lowest
@@ -445,7 +445,7 @@ D) B - Highest & A - Lowest
 
 break
 
-Q53) Find the district with the highest and lowest crime rate (2020):
+Q53) Find the district with the highest and lowest crime rate:
 
 A) C - Highest & D - Lowest
 B) B - Highest & D - Lowest
@@ -454,7 +454,7 @@ D) D - Highest & B - Lowest
 
 break
 
-Q54) Find the district with the highest and lowest crime rate (2019):
+Q54) Find the district with the highest and lowest crime rate:
 
 A) D - Highest & D - Lowest
 B) A - Highest & A - Lowest
@@ -463,7 +463,7 @@ D) B - Highest & A - Lowest
 
 break
 
-Q55) Find the district with the highest and lowest crime rate (2018):
+Q55) Find the district with the highest and lowest crime rate:
 
 A) B - Highest & B - Lowest
 B) A - Highest & A - Lowest
@@ -472,7 +472,7 @@ D) C - Highest & C - Lowest
 
 break
 
-Q56) Find the district with the highest and lowest crime rate (2017):
+Q56) Find the district with the highest and lowest crime rate:
 
 A) D - Highest & A - Lowest
 B) B - Highest & C - Lowest
@@ -481,7 +481,7 @@ D) C - Highest & C - Lowest
 
 break
 
-Q57) Find wheather highlighted district is........ compared to the original map
+Q57) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -489,7 +489,7 @@ C) No Change
 
 break
 
-Q58) Find wheather highlighted district is........ compared to the original map
+Q58) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -497,7 +497,7 @@ C) No Change
 
 break
 
-Q59) Find wheather highlighted district is........ compared to the original map
+Q59) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -505,7 +505,7 @@ C) No Change
 
 break
 
-Q60) Find wheather highlighted district is........ compared to the original map
+Q60) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -513,7 +513,7 @@ C) No Change
 
 break
 
-Q61) Find wheather highlighted district is........ compared to the original map
+Q61) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -521,7 +521,7 @@ C) No Change
 
 break
 
-Q62) Which District is the neighbor of the highlighted district? (lalitpur) 2021
+Q62) Which District is the neighbour of the highlighted district?
 
 A) Jhansi
 B) Mahoba
@@ -530,7 +530,7 @@ D) Hamirpur
 
 break
 
-Q63) Which District is the neighbor of the highlighted district? (Bulandshahr) 2020
+Q63) Which District is the neighbour of the highlighted district?
 
 A) Hatras
 B) Hapur
@@ -539,7 +539,7 @@ D) Mathura
 
 break
 
-Q64) Which District is the neighbor of the highlighted district? (Lucknow) 2019
+Q64) Which District is the neighbour of the highlighted district?
 
 A) Unnao
 B) Lakhimpur Kheri
@@ -548,7 +548,7 @@ D) Fatehpur
 
 break
 
-Q65) Which District is the neighbor of the highlighted district? (Mau) 2018
+Q65) Which District is the neighbour of the highlighted district?
 
 A) Gonda
 B) Jaunpur
@@ -557,7 +557,7 @@ D) Azamgarh
 
 break
 
-Q66) Which District is the neighbor of the highlighted district? (Kaushambi) 2017
+Q66) Which District is the neighbour of the highlighted district?
 
 A) Fatehpur
 B) Sultanpur
@@ -566,7 +566,7 @@ D) Amethi
 
 break
 
-Q67) In which year highest number of the crimes happened in Bareilly?
+Q67) In which year the highest number of crimes happened in Bareilly?
 
 A) 2021
 B) 2020
@@ -576,7 +576,7 @@ E) 2017
 
 break
 
-Q68) In which year lowest number of the crimes happened in Bareilly?
+Q68) In which year the lowest number of crimes happened in Bareilly?
 
 A) 2021
 B) 2020
@@ -586,7 +586,7 @@ E) 2017
 
 break
 
-Q69) In which year highest number of crimes happened in Ghaziabad ?
+Q69) In which year the highest number of crimes happened in Ghaziabad?
 
 A) 2021
 B) 2020
@@ -596,7 +596,7 @@ E) 2017
 
 break
 
-Q70) In which year lowest number of crimes happened in Ghaziabad ?
+Q70) In which year the lowest number of crimes happened in Ghaziabad?
 
 A) 2021
 B) 2020
@@ -606,7 +606,7 @@ E) 2017
 
 break
 
-Q71) What can you say about the trend in crime since 5years back in "Kanpur Nagar" ?
+Q71) What can you say about the trend in crime since 5 years back in "Kanpur Nagar"?
 
 A) Increased
 B) Decreased
@@ -620,7 +620,7 @@ Z)
 
 break
 
-Q73) Locate "Bareilly" District according to 2021 Map:
+Q73) Locate "Bareilly" District according to the 2021 Map:
 
 A) A
 B) B
@@ -629,7 +629,7 @@ D) D
 
 break
 
-Q74) Locate "Lucknow" District according to 2020 Map:
+Q74) Locate "Lucknow" District according to the 2020 Map:
 
 A) A
 B) B
@@ -638,7 +638,7 @@ D) D
 
 break
 
-Q75) Locate "Basti" District according to 2019 Map:
+Q75) Locate "Basti" District according to the 2019 Map:
 
 A) A
 B) B
@@ -647,7 +647,7 @@ D) D
 
 break
 
-Q76) Locate "Gonda" District according to 2018 Map:
+Q76) Locate "Gonda" District according to the 2018 Map:
 
 A) A
 B) B
@@ -656,7 +656,7 @@ D) D
 
 break
 
-Q77) Locate "Sant Kabir Nagar" district according to 2017 Map:
+Q77) Locate "Sant Kabir Nagar" district according to the 2017 Map:
 
 A) A
 B) B
@@ -665,7 +665,7 @@ D) D
 
 break
 
-Q78) Identify the name of the highlighted district from the given map (2021):
+Q78) Identify the name of the highlighted district from the given map:
 
 A) Baghpat
 B) Sonbhadra
@@ -674,7 +674,7 @@ D) Saharanpur
 
 break
 
-Q79) Identify the name of the highlighted district from the given map (2020):
+Q79) Identify the name of the highlighted district from the given map:
 
 A) Chandauli
 B) Mirzapur
@@ -683,7 +683,7 @@ D) Gazipur
 
 break
 
-Q80) Identify the name of the highlighted district from the given map (2019):
+Q80) Identify the name of the highlighted district from the given map:
 
 A) Hardoi
 B) Auraiya
@@ -692,7 +692,7 @@ D) Kannauj
 
 break
 
-Q81) Identify the name of the highlighted district from the given map (2018):
+Q81) Identify the name of the highlighted district from the given map:
 
 A) Etah
 B) Farrukhabad
@@ -701,7 +701,7 @@ D) Hardoi
 
 break
 
-Q82) Identify the name of the highlighted district from the given map (2017):
+Q82) Identify the name of the highlighted district from the given map:
 
 A) Faizabad
 B) Ambedkar Nagar
@@ -710,42 +710,42 @@ D) Amethi
 
 break
 
-Q83) Visually Which district is bigger in size : Blue or Yellow? (2021):
+Q83) Visually Which district is bigger in size: Blue or Yellow:
 
 A) Barabanki (Blue)
 B) Lucknow (Yellow)
 
 break
 
-Q84) Visually Which district is bigger in size : Blue or Yellow? (2020):
+Q84) Visually Which district is bigger in size: Blue or Yellow:
 
 A) Pratapgarh(Blue)
 B) Ambedkar Nagar(Yellow)
 
 break
 
-Q85) Visually Which district is bigger in size : Blue or Yellow? (2019):
+Q85) Visually Which district is bigger in size: Blue or Yellow:
 
 A) Banda(Blue)
 B) Mahoba(Yellow)
 
 break
 
-Q86) Visually Which district is bigger in size : Blue or Yellow? (2018):
+Q86) Visually Which district is bigger in size: Blue or Yellow:
  
 A) Kannauj(blue)
 B) Auraiya(Yellow)
 
 break
 
-Q87) Visually Which district is bigger in size : Blue or Yellow? (2017):
+Q87) Visually Which district is bigger in size: Blue or Yellow:
 
 A) Siddarth Nagar(blue)
 B) Maharajganj(Yellow)
 
 break
 
-Q88) Find the district with the highest and lowest crime rate (2021):
+Q88) Find the district with the highest and lowest crime rate:
 
 A) B - Highest & D - Lowest
 B) D - Highest & A - Lowest
@@ -754,7 +754,7 @@ D) B - Highest & C - Lowest
 
 break
 
-Q89) Find the district with the highest and lowest crime rate (2020):
+Q89) Find the district with the highest and lowest crime rate:
 
 A) B - Highest & B - Lowest
 B) A - Highest & A - Lowest
@@ -763,7 +763,7 @@ D) C - Highest & C - Lowest
 
 break
 
-Q90) Find the district with the highest and lowest crime rate (2019):
+Q90) Find the district with the highest and lowest crime rate:
 
 A) A - Highest & D - Lowest
 B) A - Highest & A - Lowest
@@ -772,7 +772,7 @@ D) C - Highest & A - Lowest
 
 break
 
-Q91) Find the district with the highest and lowest crime rate (2018):
+Q91) Find the district with the highest and lowest crime rate:
 
 A) A - Highest & A - Lowest
 B) A - Highest & C - Lowest
@@ -781,7 +781,7 @@ D) A - Highest & D - Lowest
 
 break
 
-Q92) Find the district with the highest and lowest crime rate (2017):
+Q92) Find the district with the highest and lowest crime rate:
 
 A) A - Highest & B - Lowest
 B) C - Highest & A - Lowest
@@ -790,7 +790,7 @@ D) C - Highest & D - Lowest
 
 break
 
-Q93) Find wheather highlighted district is........ compared to the original map
+Q93) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -798,7 +798,7 @@ C) No Change
 
 break
 
-Q94) Find wheather highlighted district is........ compared to the original map
+Q94) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -806,7 +806,7 @@ C) No Change
 
 break
 
-Q95) Find wheather highlighted district is........ compared to the original map
+Q95) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -814,7 +814,7 @@ C) No Change
 
 break
 
-Q96) Find wheather highlighted district is........ compared to the original map
+Q96) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -822,7 +822,7 @@ C) No Change
 
 break
 
-Q97) Find wheather highlighted district is........ compared to the original map
+Q97) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -830,7 +830,7 @@ C) No Change
 
 break
 
-Q98) Which District is the neighbor of the highlighted district? (lalitpur) 2021
+Q98) Which District is the neighbour of the highlighted district?
 
 A) Jhansi
 B) Mahoba
@@ -839,7 +839,7 @@ D) Hamirpur
 
 break
 
-Q99) Which District is the neighbor of the highlighted district? (Bulandshahr) 2020
+Q99) Which District is the neighbour of the highlighted district?
 
 A) Hatras
 B) Hapur
@@ -848,16 +848,15 @@ D) Mathura
 
 break
 
-Q100) Which District is the neighbor of the highlighted district? (Lucknow) 2019
+Q100) Which District is the neighbour of the highlighted district?
 
-A) Unnao
 B) Lakhimpur Kheri
 C) Amethi
 D) Fatehpur
 
 break
 
-Q101) Which District is the neighbor of the highlighted district? (Mau) 2018
+Q101) Which District is the neighbour of the highlighted district?
 
 A) Gonda
 B) Jaunpur
@@ -866,7 +865,7 @@ D) Azamgarh
 
 break
 
-Q102) Which District is the neighbor of the highlighted district? (Kaushambi) 2017
+Q102) Which District is the neighbour of the highlighted district? 
 
 A) Fatehpur
 B) Sultanpur
@@ -875,7 +874,7 @@ D) Amethi
 
 break
 
-Q103) In which year highest number of the crimes happened in Bareilly?
+Q103) In which year the highest number of crimes happened in Bareilly?
 
 A) 2021
 B) 2020
@@ -885,7 +884,7 @@ E) 2017
 
 break
 
-Q104) In which year lowest number of the crimes happened in Bareilly?
+Q104) In which year the lowest number of crimes happened in Bareilly?
 
 A) 2021
 B) 2020
@@ -895,7 +894,7 @@ E) 2017
 
 break
 
-Q105) In which year highest number of crimes happened in Ghaziabad ?
+Q105) In which year the highest number of crimes happened in Ghaziabad?
 
 A) 2021
 B) 2020
@@ -905,7 +904,7 @@ E) 2017
 
 break
 
-Q106) In which year lowest number of crimes happened in Ghaziabad ?
+Q106) In which year the lowest number of crimes happened in Ghaziabad?
 
 A) 2021
 B) 2020
@@ -915,7 +914,7 @@ E) 2017
 
 break
 
-Q107) What can you say about the trend in crime since 5years back in "Kanpur Nagar" ?
+Q107) What can you say about the trend in crime since 5 years back in "Kanpur Nagar"?
 
 A) Increased
 B) Decreased
@@ -929,7 +928,7 @@ Z)
 
 break
 
-Q109) Locate "Bareilly" District according to 2021 Map:
+Q109) Locate "Bareilly" District according to the 2021 Map:
 
 A) A
 B) B
@@ -938,7 +937,7 @@ D) D
 
 break
 
-Q110) Locate "Lucknow" District according to 2020 Map:
+Q110) Locate "Lucknow" District according to the 2020 Map:
 
 A) A
 B) B
@@ -947,7 +946,7 @@ D) D
 
 break
 
-Q111) Locate "Basti" District according to 2019 Map:
+Q111) Locate "Basti" District according to the 2019 Map:
 
 A) A
 B) B
@@ -956,7 +955,7 @@ D) D
 
 break
 
-Q112) Locate "Gonda" District according to 2018 Map:
+Q112) Locate "Gonda" District according to the 2018 Map:
 
 A) A
 B) B
@@ -965,7 +964,7 @@ D) D
 
 break
 
-Q113) Locate "Sant Kabir Nagar" district according to 2017 Map:
+Q113) Locate "Sant Kabir Nagar" district according to the 2017 Map:
 
 A) A
 B) B
@@ -974,7 +973,7 @@ D) D
 
 break
 
-Q114) Identify the name of the highlighted district from the given map (2021):
+Q114) Identify the name of the highlighted district from the given map:
 
 A) Baghpat
 B) Sonbhadra
@@ -983,7 +982,7 @@ D) Saharanpur
 
 break
 
-Q115) Identify the name of the highlighted district from the given map (2020):
+Q115) Identify the name of the highlighted district from the given map:
 
 A) Chandauli
 B) Mirzapur
@@ -992,7 +991,7 @@ D) Gazipur
 
 break
 
-Q116) Identify the name of the highlighted district from the given map (2019):
+Q116) Identify the name of the highlighted district from the given map:
 
 A) Hardoi
 B) Auraiya
@@ -1001,7 +1000,7 @@ D) Kannauj
 
 break
 
-Q117) Identify the name of the highlighted district from the given map (2018):
+Q117) Identify the name of the highlighted district from the given map:
 
 A) Etah
 B) Farrukhabad
@@ -1010,7 +1009,7 @@ D) Hardoi
 
 break
 
-Q118) Identify the name of the highlighted district from the given map (2017):
+Q118) Identify the name of the highlighted district from the given map:
 
 A) Faizabad
 B) Ambedkar Nagar
@@ -1019,42 +1018,42 @@ D) Amethi
 
 break
 
-Q119) Visually Which state is bigger in size : Blue or Yellow? (2021):
+Q119) Visually Which state is bigger in size: Blue or Yellow:
 
 A) Barabanki (Blue)
 B) Lucknow (Yellow)
 
 break
 
-Q120) Visually Which district is bigger in size : Blue or Yellow? (2020):
+Q120) Visually Which district is bigger in size: Blue or Yellow:
 
 A) Pratapgarh(Blue)
 B) Ambedkar Nagar(Yellow)
 
 break
 
-Q121) Visually Which district is bigger in size : Blue or Yellow? (2019):
+Q121) Visually Which district is bigger in size: Blue or Yellow:
 
 A) Banda(Blue)
 B) Mahoba(Yellow)
 
 break
 
-Q122) Visually Which district is bigger in size : Blue or Yellow? (2018):
+Q122) Visually Which district is bigger in size: Blue or Yellow:
  
 A) Kannauj(blue)
 B) Auraiya(Yellow)
 
 break
 
-Q123) Visually Which district is bigger in size : Blue or Yellow? (2017):
+Q123) Visually Which district is bigger in size: Blue or Yellow:
 
 A) Siddarth Nagar(blue)
 B) Maharajganj(Yellow)
 
 break
 
-Q124) Find the district with the highest and lowest crime rate (2021):
+Q124) Find the district with the highest and lowest crime rate:
 
 A) B - Highest & D - Lowest
 B) A - Highest & A - Lowest
@@ -1063,7 +1062,7 @@ D) C - Highest & C - Lowest
 
 break
 
-Q125) Find the district with the highest and lowest crime rate (2020):
+Q125) Find the district with the highest and lowest crime rate:
 
 A) B - Highest & B - Lowest
 B) A - Highest & D - Lowest
@@ -1072,7 +1071,7 @@ D) C - Highest & D - Lowest
 
 break
 
-Q126) Find the district with the highest and lowest crime rate (2019):
+Q126) Find the district with the highest and lowest crime rate
 
 A) B - Highest & B - Lowest
 B) C - Highest & C - Lowest
@@ -1081,7 +1080,7 @@ D) C - Highest & C - Lowest
 
 break
 
-Q127) Find the district with the highest and lowest crime rate (2018):
+Q127) Find the district with the highest and lowest crime rate:
 
 A) B - Highest & B - Lowest
 B) A - Highest & A - Lowest
@@ -1090,7 +1089,7 @@ D) D - Highest & A - Lowest
 
 break
 
-Q128) Find the district with the highest and lowest crime rate (2017):
+Q128) Find the district with the highest and lowest crime rate:
 
 A) B - Highest & D - Lowest
 B) A - Highest & A - Lowest
@@ -1099,7 +1098,7 @@ D) C - Highest & A - Lowest
 
 break
 
-Q129) Find wheather highlighted district is........ compared to the original map
+Q129) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -1107,7 +1106,7 @@ C) No Change
 
 break
 
-Q130) Find wheather highlighted district is........ compared to the original map
+Q130) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -1115,7 +1114,7 @@ C) No Change
 
 break
 
-Q131) Find wheather highlighted district is........ compared to the original map
+Q131) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -1123,7 +1122,7 @@ C) No Change
 
 break
 
-Q132) Find wheather highlighted district is........ compared to the original map
+Q132) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -1131,7 +1130,7 @@ C) No Change
 
 break
 
-Q133) Find wheather highlighted district is........ compared to the original map
+Q133) Find whether the highlighted district is........ compared to the original map
 
 A) Shrunk
 B) Grown
@@ -1139,7 +1138,7 @@ C) No Change
 
 break
 
-Q134) Which District is the neighbor of the highlighted district? (lalitpur) 2021
+Q134) Which District is the neighbour of the highlighted district?
 
 A) Jhansi
 B) Mahoba
@@ -1148,7 +1147,7 @@ D) Hamirpur
 
 break
 
-Q135) Which District is the neighbor of the highlighted district? (Bulandshahr) 2020
+Q135) Which District is the neighbour of the highlighted district?
 
 A) Hatras
 B) Hapur
@@ -1157,7 +1156,7 @@ D) Mathura
 
 break
 
-Q136) Which District is the neighbor of the highlighted district? (Lucknow) 2019
+Q136) Which District is the neighbour of the highlighted district?
 
 A) Unnao
 B) Lakhimpur Kheri
@@ -1166,7 +1165,7 @@ D) Fatehpur
 
 break
 
-Q137) Which District is the neighbor of the highlighted district? (Mau) 2018
+Q137) Which District is the neighbour of the highlighted district?
 
 A) Gonda
 B) Jaunpur
@@ -1175,7 +1174,7 @@ D) Azamgarh
 
 break
 
-Q138) Which District is the neighbor of the highlighted district? (Kaushambi) 2017
+Q138) Which District is the neighbour of the highlighted district?
 
 A) Fatehpur
 B) Sultanpur
@@ -1184,7 +1183,7 @@ D) Amethi
 
 break
 
-Q139) In which year highest number of the crimes happened in Bareilly?
+Q139) In which year the highest number of crimes happened in Bareilly?
 
 A) 2021
 B) 2020
@@ -1194,7 +1193,7 @@ E) 2017
 
 break
 
-Q140) In which year lowest number of the crimes happened in Bareilly?
+Q140) In which year the lowest number of crimes happened in Bareilly?
 
 A) 2021
 B) 2020
@@ -1204,7 +1203,7 @@ E) 2017
 
 break
 
-Q141) In which year highest number of crimes happened in Ghaziabad ?
+Q141) In which year the highest number of crimes happened in Ghaziabad?
 
 A) 2021
 B) 2020
@@ -1214,7 +1213,7 @@ E) 2017
 
 break
 
-Q142) In which year lowest number of crimes happened in Ghaziabad ?
+Q142) In which year the lowest number of crimes happened in Ghaziabad?
 
 A) 2021
 B) 2020
@@ -1224,7 +1223,7 @@ E) 2017
 
 break
 
-Q143) What can you say about the trend in crime since 5years back in "Kanpur Nagar" ?
+Q143) What can you say about the trend in crime since 5 years back in "Kanpur Nagar"?
 
 A) Increased
 B) Decreased
