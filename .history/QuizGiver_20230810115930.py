@@ -224,7 +224,7 @@ def app(QuizDoc, time_stamp):
             if Next:
                 st.empty()
                 st.session_state['AnswerList'][st.session_state['Index']] = ['Start Section ' + st.session_state['Section'][0], time_stamp]
-                st.success(f"Q{st.session_state['Index']}) : {st.session_state['AnswerList'][st.session_state['Index']]}")
+                st.success(f"Q{st.session_state['Index']}) : {st.session_state['AnswerList'][st.session_state['Index']][0]}")
                 st.session_state['Section'].pop(0)
                 if st.session_state['Index'] < len(Ques):
                     st.session_state['Index'] += 1
