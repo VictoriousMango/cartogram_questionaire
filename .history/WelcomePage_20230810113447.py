@@ -38,14 +38,16 @@ def app():
         keys = list(Guidelines.keys())
         for i in range(len(keys)):
             with st.expander(keys[i], expanded=False):
-                st.markdown(f"<h3 style='text-align: center; color: grey;'>{keys[i]}</h3>", unsafe_allow_html=True)
+                st.markdown(f"<h3 style='text-align: center; color: grey;'><i>{keys[i]}</i></h3>", unsafe_allow_html=True)
+                st.write(Guidelines[keys[i]])
+                st.markdown(f"<h6 style='text-align: justify; color: grey;'>{Guidelines[keys[i]]}</h6>", unsafe_allow_html=True)
                 st.markdown(f"<h6 style='text-align: center; color: grey;'><i>{Guidelines[keys[i]]}</i></h6>", unsafe_allow_html=True)
                 if i == len(keys) - 1:
-                    #col1, col2 = st.columns([1, 3])
-                    st.write('Phone Number : 6289926460')
-                    #col2.write('6289926460')
-                    st.write('Email ID : Satyam.mishra22@st.niituniveristy.in')
-                    #col2.write('Satyam.mishra22@st.niituniveristy.in')
+                    col1, col2 = st.columns([1, 1])
+                    col1.write('Phone Number : ')
+                    col2.write('6289926460')
+                    col1.write('Email ID : ')
+                    col2.write('Satyam.mishra22@st.niituniveristy.in')
         #
         #st.markdown("<h6 style='text-align: center; color: grey;'></h6>", unsafe_allow_html=True)
         #st.markdown("<h6 style='text-align: center; color: grey;'></h6>", unsafe_allow_html=True)

@@ -26,7 +26,7 @@ def app():
         Contact: If you have any questions or concerns about the survey, feel free to contact Satyam Mishra at  \n Phone Number : 6289926460 \nEmail ID : Satyam.mishra22@st.niituniveristy.in..
         '''
         Guidelines = {
-            "Question Pattern": "This survey has four sections, like Choropleth Map, Contiguous Cartogram, Non-Contiguous Cartogram and Dorling Cartogram. Each section focuses on a specific type of Maps and its effectiveness. This survey is composed of 140 questions, with each section containing 35 questions. We recommend sitting aside at least 1hr to answer all questions with patience.",
+            "Question Pattern": "This survey has four sections, like Choropleth Map, Contiguous Cartogram, Non-Contiguous Cartogram and Dorling Cartogram. Each section focuses on a specific type of Maps and its effectiveness. This survey is composed of 140 questions, with each section containing 35 questions.",
             "Avoid Glitches":  "If any glitches come during the survey don’t click on Refresh. Just click on ‘Hide Assessment’ then click ‘Show Assessment.’",
             "Relax and Feel at Ease": "There's no need to feel stressed. This survey is meant to gather your thoughts and opinions, so take your time and answer at your own pace.",
             "Your Views Matter": "Your personal views and opinions are what we're interested in. There are no right or wrong answers. We value the unique perspectives you bring to the table.",
@@ -39,13 +39,14 @@ def app():
         for i in range(len(keys)):
             with st.expander(keys[i], expanded=False):
                 st.markdown(f"<h3 style='text-align: center; color: grey;'>{keys[i]}</h3>", unsafe_allow_html=True)
-                st.markdown(f"<h6 style='text-align: center; color: grey;'><i>{Guidelines[keys[i]]}</i></h6>", unsafe_allow_html=True)
+                st.write(Guidelines[keys[i]])
+                st.markdown(f"<h5 style='text-align: justify; color: grey;'>{Guidelines[keys[i]]}</h5>", unsafe_allow_html=True)
                 if i == len(keys) - 1:
-                    #col1, col2 = st.columns([1, 3])
-                    st.write('Phone Number : 6289926460')
-                    #col2.write('6289926460')
-                    st.write('Email ID : Satyam.mishra22@st.niituniveristy.in')
-                    #col2.write('Satyam.mishra22@st.niituniveristy.in')
+                    col1, col2 = st.columns([1, 1])
+                    col1.write('Phone Number : ')
+                    col2.write('6289926460')
+                    col1.write('Email ID : ')
+                    col2.write('Satyam.mishra22@st.niituniveristy.in')
         #
         #st.markdown("<h6 style='text-align: center; color: grey;'></h6>", unsafe_allow_html=True)
         #st.markdown("<h6 style='text-align: center; color: grey;'></h6>", unsafe_allow_html=True)
