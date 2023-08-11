@@ -94,36 +94,36 @@ break
 
 Q11) Visually Which district is bigger in size : Blue or Yellow:
 
-A) Barabanki (Blue)
-B) Lucknow (Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q12) Visually Which district is bigger in size : Blue or Yellow:
 
-A) Pratapgarh(Blue)
-B) Ambedkar Nagar(Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q13) Visually Which district is bigger in size : Blue or Yellow:
 
-A) Banda(Blue)
-B) Mahoba(Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q14) Visually Which district is bigger in size : Blue or Yellow:
  
-A) Kannauj(blue)
-B) Auraiya(Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q15) Visually Which district is bigger in size : Blue or Yellow:
 
-A) Siddarth Nagar(blue)
-B) Maharajganj(Yellow)
+A) Blue
+B) Yellow
 
 break
 
@@ -403,36 +403,36 @@ break
 
 Q47) Visually Which district is bigger in size: Blue or Yellow:
 
-A) Barabanki (Blue)
-B) Lucknow (Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q48) Visually Which district is bigger in size: Blue or Yellow:
 
-A) Pratapgarh(Blue)
-B) Ambedkar Nagar(Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q49) Visually Which district is bigger in size: Blue or Yellow:
 
-A) Banda(Blue)
-B) Mahoba(Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q50) Visually Which district is bigger in size: Blue or Yellow:
  
-A) Kannauj(blue)
-B) Auraiya(Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q51) Visually Which district is bigger in size: Blue or Yellow:
 
-A) Siddarth Nagar(blue)
-B) Maharajganj(Yellow)
+A) Blue
+B) Yellow
 
 break
 
@@ -712,36 +712,36 @@ break
 
 Q83) Visually Which district is bigger in size: Blue or Yellow:
 
-A) Barabanki (Blue)
-B) Lucknow (Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q84) Visually Which district is bigger in size: Blue or Yellow:
 
-A) Pratapgarh(Blue)
-B) Ambedkar Nagar(Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q85) Visually Which district is bigger in size: Blue or Yellow:
 
-A) Banda(Blue)
-B) Mahoba(Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q86) Visually Which district is bigger in size: Blue or Yellow:
  
-A) Kannauj(blue)
-B) Auraiya(Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q87) Visually Which district is bigger in size: Blue or Yellow:
 
-A) Siddarth Nagar(blue)
-B) Maharajganj(Yellow)
+A) Blue
+B) Yellow
 
 break
 
@@ -850,9 +850,10 @@ break
 
 Q100) Which District is the neighbour of the highlighted district?
 
-B) Lakhimpur Kheri
-C) Amethi
-D) Fatehpur
+A) Lakhimpur Kheri
+B) Amethi
+C) Fatehpur
+D) Sultanpur
 
 break
 
@@ -1020,36 +1021,36 @@ break
 
 Q119) Visually Which state is bigger in size: Blue or Yellow:
 
-A) Barabanki (Blue)
-B) Lucknow (Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q120) Visually Which district is bigger in size: Blue or Yellow:
 
-A) Pratapgarh(Blue)
-B) Ambedkar Nagar(Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q121) Visually Which district is bigger in size: Blue or Yellow:
 
-A) Banda(Blue)
-B) Mahoba(Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q122) Visually Which district is bigger in size: Blue or Yellow:
  
-A) Kannauj(blue)
-B) Auraiya(Yellow)
+A) Blue
+B) Yellow
 
 break
 
 Q123) Visually Which district is bigger in size: Blue or Yellow:
 
-A) Siddarth Nagar(blue)
-B) Maharajganj(Yellow)
+A) Blue
+B) Yellow
 
 break
 
