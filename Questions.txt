@@ -1077,7 +1077,7 @@ Q126) Find the district with the highest and lowest crime rate
 A) B - Highest & B - Lowest
 B) C - Highest & C - Lowest
 C) D - Highest & B - Lowest
-D) C - Highest & C - Lowest
+D) C - Highest & D - Lowest
 
 break
 
