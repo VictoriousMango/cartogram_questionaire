@@ -159,7 +159,7 @@ Q19) Find the district with the highest and lowest crime rate in the given map:
 A) A - Highest & A - Lowest
 B) A - Highest & B - Lowest
 C) B - Highest & D - Lowest
-D) D - Highest & E - Lowest
+D) D - Highest & A - Lowest
 
 break
 
