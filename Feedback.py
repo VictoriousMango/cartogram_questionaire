@@ -14,7 +14,7 @@ def app():
     st.title('Feedback')
     col1,colx, col2 = st.columns([5, 3, 5])
     col3, coly, col4 = st.columns([5, 3, 5])
-    Name_Of_Cartogram = ['Choropleth Map', 'Contiguous Cartogram', 'Non-Contiguous Cartogram', 'Dorling cartogram']
+    Name_Of_Cartogram = ['Choropleth Map', 'Contiguous Cartogram', 'Non-Contiguous Cartogram', 'Dorling Cartogram']
     Parameters = ['Helpfulness', 'Acceptance', 'Readability', 'Overall Rating']
     ParamValues = {
         'Helpfulness': ['Not Helpful', 'Somewhat Helpful', 'Medium Helpful', 'Helpful', 'Super Helpful'],
