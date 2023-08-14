@@ -852,7 +852,7 @@ Q100) Which District is the neighbour of the highlighted district?
 
 A) Lakhimpur Kheri
 B) Amethi
-C) Fatehpur
+C) Unnao
 D) Sultanpur
 
 break
