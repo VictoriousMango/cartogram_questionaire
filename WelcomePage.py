@@ -27,7 +27,7 @@ def app():
         '''
         Guidelines = {
             "Question Pattern": "This survey has four sections, like Choropleth Map, Contiguous Cartogram, Non-Contiguous Cartogram and Dorling Cartogram. Each section focuses on a specific type of Maps and its effectiveness. This survey is composed of 140 questions, with each section containing 35 questions. We recommend sitting aside at least 1hr to answer all questions with patience.",
-            "Avoid Glitches":  "If any glitches come during the survey don’t click on Refresh. Just click on ‘Hide Assessment’ then click ‘Show Assessment’. Once the assessment is over, and Feedback form appears, You can click on 'Hid Assessment' button, for smother experience.",
+            "Avoid Glitches":  "If any glitches come during the survey don’t click on Refresh. Just click on ‘Hide Assessment’ then click ‘Show Assessment’. Once the assessment is over, and Feedback form appears, You can click on 'Hide Assessment' button, for smother experience.",
             "Relax and Feel at Ease": "There's no need to feel stressed. This survey is meant to gather your thoughts and opinions, so take your time and answer at your own pace.",
             "Your Views Matter": "Your personal views and opinions are what we're interested in. There are no right or wrong answers. We value the unique perspectives you bring to the table.",
             "Honest Responses": "Please provide honest responses. Your genuine feedback helps us gain a better understanding of how different map techniques are perceived and utilized.",
