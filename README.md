@@ -10,7 +10,7 @@ This project aims to provide an intuitive, data-driven approach to evaluate the 
 > - [Cartogram Assessment](https://victoriousmango-cartogram-questio-cartogramassessmentapp-zo0znw.streamlit.app/)
 ## Key Features
 
-- Dynamic Questionnaires: The application generates objective questionnaires to assess user comprehension of different cartogram types. Each questionnaire is mapped to corresponding cartogram images, allowing for clear and direct assessment.
+- **Dynamic Questionnaires:** The application generates objective questionnaires to assess user comprehension of different cartogram types. Each questionnaire is mapped to corresponding cartogram images, allowing for clear and direct assessment.
 
 - **Modular Design:** All components (questionnaires, image generation, and data handling) are designed to be atomic and independent. This ensures flexibility and ease of maintenance, allowing new questions and image models to be added or modified without affecting the entire application.
 
